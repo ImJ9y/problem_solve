@@ -6,21 +6,7 @@ class Solution(object):
         """
         self.s = s
         sum = 0
-        count = 0
-        
-        if "IX" in s :
-            sum -= 2
-        if "IV" in s:
-            sum -= 2
-        if "XC" in s:
-            sum -= 20
-        if "XL" in s:
-            sum -= 20
-        if "CM" in s:
-            sum -= 200
-        if "CD" in s:
-            sum -= 200
-        
+        s = s.replace('IV', 'IIII').replace('IX', 'VIIII').replace('XL','XXXX').replace('XC', 'LXXXX').replace('CD','CCCC').replace('CM','DCCCC')
         for letter in s:
             if letter == "M":
                 sum += 1000
