@@ -4,25 +4,22 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        self.s = s
+        s = s.replace("IV","IIII").replace("IX","VIIII").replace("XL","XXXX").replace("XC","LXXXX").replace("CD","CCCC").replace("CM","DCCCC")
         sum = 0
-        s = s.replace('IV', 'IIII').replace('IX', 'VIIII').replace('XL','XXXX').replace('XC', 'LXXXX').replace('CD','CCCC').replace('CM','DCCCC')
-        for letter in s:
-            if letter == "M":
+        for symbol in s:
+            if symbol == 'M':
                 sum += 1000
-            elif letter == "D":
+            elif symbol == 'D':
                 sum += 500
-            elif letter == "C":
+            elif symbol == 'C':
                 sum += 100
-            elif letter == "L":
+            elif symbol == 'L':
                 sum += 50
-            elif letter == "X":
+            elif symbol == 'X':
                 sum += 10
-            elif letter == "V":
+            elif symbol == 'V':
                 sum += 5
-            elif letter == "I":
-                sum += 1
             else:
-                continue
+                sum += 1
         
         return sum
