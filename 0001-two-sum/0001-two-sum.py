@@ -5,13 +5,13 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        sum = 0
-        for i in range(0,len(nums)):
-            for j in range(1,len(nums)):
+        
+        for i in range(0, len(nums)):
+            for j in range(1, len(nums)):
                 if i == j:
                     continue
-                sum = nums[i] + nums[j]
-                if sum == target:
+                
+                if nums[i] + nums[j] == target:
                     return [i,j]
 
         
