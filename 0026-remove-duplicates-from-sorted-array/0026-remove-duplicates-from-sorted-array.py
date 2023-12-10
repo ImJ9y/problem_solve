@@ -4,8 +4,6 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        if not nums:
-            return 0
         
         k = 1
         for i in range(1,len(nums)):
@@ -14,3 +12,4 @@ class Solution(object):
                 k += 1
         
         return k
+        
