@@ -12,6 +12,6 @@ class Solution(object):
         for word in strs:
             while word.find(prefix) != 0:
                 prefix = prefix[:-1]
-                
+
         return prefix
-        
+            
