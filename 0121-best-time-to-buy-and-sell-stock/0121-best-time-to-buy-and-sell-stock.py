@@ -5,28 +5,32 @@ class Solution(object):
         :rtype: int
         """
         
-        left = 0 #Buy
-        right = 1 #Sell
+#         left = 0 #Buy
+#         right = 1 #Sell
+#         max_profit = 0
+        
+#         while right < len(prices):
+#             currentProfit = prices[right] - prices[left] #our current Profit
+#             if prices[left] < prices[right]:
+#                 max_profit =max(currentProfit,max_profit)
+#             else:
+#                 left = right
+#             right += 1
+        
+#       return max_profit
+        left = 0
+        right = 1
         max_profit = 0
         while right < len(prices):
-            currentProfit = prices[right] - prices[left] #our current Profit
+            currentProfit = prices[right] - prices[left]
+            
             if prices[left] < prices[right]:
-                max_profit =max(currentProfit,max_profit)
+                max_profit = max(currentProfit,max_profit)
             else:
                 left = right
+            
             right += 1
-        return max_profit
-    
-#         profit = 0
         
-#         for i in range(len(prices)-1):
-#             for j in range(i+1, len(prices)):
-#                 if prices[i] < prices[j]:
-#                     if prices[j] - prices[i] < profit:
-#                         continue
-#                     else:
-#                         profit = prices[j] - prices[i]
-
-#         return profit
+        return max_profit
             
         
