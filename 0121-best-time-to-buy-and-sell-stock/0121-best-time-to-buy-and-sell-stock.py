@@ -16,7 +16,8 @@ class Solution(object):
             if prices[left] < prices[right]:
                 max_profit = max(currentProfit,max_profit)
             else:
-                left = right
+                left = right #when left is larger than right -> move to next element
+            
             right += 1
         
         return max_profit
