@@ -4,22 +4,19 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-
+        Left = 0
+        Right = 1
+        maxProfit = 0
         
-        left = 0 #buy
-        right = 1 #sell
+        while Right < len(prices):
+            if prices[Left] > prices[Right]:
+                Left = Right
+            
+            curProfit = prices[Right] - prices[Left]
+            if curProfit > maxProfit:
+                maxProfit = curProfit
+    
+            Right += 1
         
-        max_profit = 0
-        while right < len(prices):
-            currentProfit = prices[right] - prices[left]
-            
-            if prices[left] < prices[right]:
-                max_profit = max(currentProfit,max_profit)
-            else:
-                left = right #when left is larger than right -> move to next element
-            
-            right += 1
-        
-        return max_profit
-            
+        return maxProfit
         
