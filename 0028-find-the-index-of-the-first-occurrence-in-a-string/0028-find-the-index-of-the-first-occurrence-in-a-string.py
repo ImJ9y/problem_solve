@@ -5,12 +5,23 @@ class Solution(object):
         :type needle: str
         :rtype: int
         """
-        if haystack == needle:
-            return 0
-        
-        for i in range(len(haystack)):
-            if haystack[i:len(needle)+i] == needle:
+
+        hl = len(haystack)
+        nl = len(needle)
+
+        for i in range(0,hl-nl+1,1):       
+            if haystack[i:i+nl] == needle:
                 return i
+
+        return -1        
         
-        return -1
+        
+#         if haystack == needle:
+#             return 0
+        
+#         for i in range(len(haystack)):
+#             if haystack[i:len(needle)+i] == needle:
+#                 return i
+        
+#         return -1
             
