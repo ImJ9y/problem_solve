@@ -6,11 +6,14 @@ class Solution(object):
         :rtype: int
         """
 
-        hl = len(haystack)
-        nl = len(needle)
-
-        for i in range(0,hl):       
-            if haystack[i:i+nl] == needle:
+        
+        #hello
+        #ll
+        #he, el, ll, lo, o... (only 4)
+        #searching until right before last character of haystack
+        for i in range(len(haystack)+1 - len(needle)):       
+            #move next character after searching length of needle
+            if haystack[i:i+len(needle)] == needle:
                 return i
 
         return -1        
