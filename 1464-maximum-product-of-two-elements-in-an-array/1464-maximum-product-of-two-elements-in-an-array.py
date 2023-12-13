@@ -5,7 +5,9 @@ class Solution(object):
         :rtype: int
         """
         nums.sort()
+        #biggest
         x = nums[-1]
+        #second biggest
         y = nums[-2]
         return (x - 1) * (y - 1)
 
