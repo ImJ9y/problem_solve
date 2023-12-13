@@ -4,11 +4,17 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        maxMul = 0
-        for i in range(len(nums)):
-            curMul = 0
-            for j in range(i+1,len(nums)):
-                curMul = (nums[i]-1) * (nums[j]-1)
-                maxMul = max(curMul, maxMul)
+#         maxMul = 0
+#         for i in range(len(nums)):
+#             curMul = 0
+#             for j in range(i+1,len(nums)):
+#                 curMul = (nums[i]-1) * (nums[j]-1)
+#                 maxMul = max(curMul, maxMul)
         
-        return maxMul
+#         return maxMul
+        
+        nums.sort()
+        x = nums[-1]
+        y = nums[-2]
+        return (x - 1) * (y - 1)
+        
