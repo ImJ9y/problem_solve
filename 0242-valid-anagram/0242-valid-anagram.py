@@ -34,6 +34,7 @@ class Solution(object):
             countT[t[i]] = 1 + countT.get(t[i],0)
         
         for c in countS:
+            #order can be different so we need to use .get() for countT
             if countS[c] != countT.get(c, 0):
                 return False
         
