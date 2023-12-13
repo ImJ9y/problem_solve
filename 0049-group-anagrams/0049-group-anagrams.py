@@ -18,7 +18,8 @@ class Solution(object):
                 count[ord(c)-ord('a')] += 1
             
             answer[tuple(count)].append(s)
-
+#defaultdict(<type 'list'>, {(1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0): [u'eat']})
+ 
         return answer.values()
         
 #         or
