@@ -5,13 +5,25 @@ class Solution(object):
         :rtype: int
         """
         
-        #maxNum = nums[0]
-        maxNum = float('-inf') #default value
-        curNum = 0
-        
+        maxSum = nums[0]
+        curSum = 0
         for num in nums:
-            curNum = max(curNum, 0) + num
-            #or curNum += num
-            maxNum = max(maxNum, curNum)
+            curSum = max(curSum, 0) + num
+            maxSum = max(maxSum, curSum)
         
-        return maxNum
+        return maxSum
+        
+        
+        
+        
+        
+        #maxNum = nums[0]
+#         maxNum = float('-inf') #default value
+#         curNum = 0
+        
+#         for num in nums:
+#             curNum = max(curNum, 0) + num
+#             #or curNum += num
+#             maxNum = max(maxNum, curNum)
+        
+#         return maxNum
