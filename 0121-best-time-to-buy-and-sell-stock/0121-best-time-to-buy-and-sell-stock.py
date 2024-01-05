@@ -4,32 +4,15 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
+        L = 0 
+        R = 1
+        max_profit = 0
         
-        #Two Pointers
-        Left = 0
-        Right = 1
-        maxProfit = 0
-        while Right < len(prices):
-            if prices[Left] < prices[Right]:
-                profit = prices[Right] - prices[Left]
-                maxProfit = max(maxProfit, profit)
-            else:
-                Left = Right
-            Right += 1
-        return maxProfit
+        while R < len(prices):
+            if prices[L] > prices[R]:
+                L = R
+            cur_profit = prices[R] - prices[L]
+            max_profit = max(max_profit, cur_profit)
+            R += 1
         
-        
-#         while Right < len(prices):
-#             if prices[Left] > prices[Right]:
-#                 Left = Right
-            
-#             curProfit = prices[Right] - prices[Left]
-#             if curProfit > maxProfit:
-#                 maxProfit = curProfit
-    
-#             Right += 1
-        
-#         return maxProfit
-        
-        
-        
+        return max_profit
