@@ -11,8 +11,8 @@ class Solution(object):
         while R < len(prices):
             if prices[L] > prices[R]:
                 L = R
-            else:
-                max_profit = max(max_profit, prices[R] - prices[L])
+            
+            max_profit = max(max_profit, prices[R] - prices[L])
             R += 1
             
         return max_profit
