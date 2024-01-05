@@ -11,7 +11,7 @@ class Solution(object):
         length = len(nums)
         
         for i in range(length):
-            if nums[i] in seen:
+            if nums[i] in seen: 
                 return True
             else:
                 seen[nums[i]] = i
