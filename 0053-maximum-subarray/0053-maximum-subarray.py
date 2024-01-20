@@ -5,12 +5,15 @@ class Solution(object):
         :rtype: int
         """
         
-        #O(n) - Kadane’s Algorithm
-        maxSum = nums[0]
-#       maxNum = float('-inf') #default value
-        curSum = 0
-        for num in nums:
-            curSum = max(curSum, 0) + num
-            maxSum = max(maxSum, curSum)
+        max_Num = max(nums)
+        curr_Num = 0
         
-        return maxSum
+        for i in range(len(nums)):
+            if curr_Num < 0:
+                curr_Num = 0
+            
+            curr_Num += nums[i]
+            max_Num = max(max_Num, curr_Num)
+        
+        
+        return max_Num
