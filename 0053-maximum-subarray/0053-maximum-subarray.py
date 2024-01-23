@@ -5,15 +5,17 @@ class Solution(object):
         :rtype: int
         """
         
-        max_Num = max(nums)
-        curr_Num = 0
+        curr_num = 0
+        max_num = max(nums)
         
-        for i in range(len(nums)):
-            if curr_Num < 0:
-                curr_Num = 0
+        for num in nums:
+            if curr_num < 0:
+                curr_num = 0
             
-            curr_Num += nums[i]
-            max_Num = max(max_Num, curr_Num)
+            curr_num += num
+            max_num = max(curr_num, max_num)
+        
+        return max_num
+            
         
         
-        return max_Num
