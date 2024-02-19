@@ -5,44 +5,23 @@ class Solution(object):
         :type target: int
         :rtype: int
         """
-        Left = 0
-        Right = len(nums) -1
+        L = 0 
+        R = len(nums)-1
         
-        while Left <= Right:
-            mid = (Left + Right) // 2
+        while L <= R:
+            if nums[L] == target:
+                return L
+            elif nums[R] == target:
+                return R
             
-            if nums[mid] == target:
-                return mid
+            M = (L+R)/2
             
-            
-            # determine it's left rotated or right rotated
-            """
-            No rotated:
-            1 2 3 4 5 6 7
-                 mid
-                 
-            left rotated: pivot at the left side of the origin sorted array, A[mid] >= A[left]
-            3 4 5 6 7 1 2
-                 mid
-            search in A[left] ~ A [mid] if A[left] <= target < A[mid] else, search right side
-            
-            right rotated: pivot at the right side of the origin sorted array, A[mid] < A[left]
-            6 7 1 2 3 4 5
-                 mid          
-            search in A[mid] ~ A[right] if A[mid] < target <= A[right] else, search left side
-            """
-            if nums[mid] >= nums[Left]: # left rotated
-                # in ascending order side
-                if nums[Left] <= target and target < nums[mid]:
-                    Right = mid - 1
+            if nums[M] == target:
+                return M
+            else:
+                if nums[L] < nums[M]:
+                    L += 1
                 else:
-                    Left = mid + 1
-            else: # right rotated
-                # in ascending order side
-                if nums[mid] < target and target <= nums[Right]:
-                    Left = mid + 1
-                else:
-                    Right = mid - 1
-        # cannot find the target value
+                    R -= 1
+        
         return -1
-            
