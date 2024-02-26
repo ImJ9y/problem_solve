@@ -5,13 +5,8 @@ class Solution(object):
         :rtype: int
         """
         nums.sort()
-        ans = 0
-        print(nums)
         for i in range(len(nums)):
-            print(i)
-            print(nums[i])
             if nums[i] != i:
-                ans = i
-                return ans
+                return i
         
         return len(nums)
