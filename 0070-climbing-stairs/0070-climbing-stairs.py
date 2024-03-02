@@ -4,7 +4,6 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        
         one, two = 1,1
         
         for i in range(n-1):
