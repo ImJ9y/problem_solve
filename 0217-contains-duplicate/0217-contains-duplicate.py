@@ -5,13 +5,10 @@ class Solution(object):
         :rtype: bool
         """
         
-        #return sorted(set(nums)) != sorted(nums)
-    
         seen = {}
-        length = len(nums)
         
-        for i in range(length):
-            if nums[i] in seen: 
+        for i in range(len(nums)):
+            if nums[i] in seen:
                 return True
             else:
                 seen[nums[i]] = i
