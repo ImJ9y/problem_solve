@@ -6,13 +6,16 @@ class Solution(object):
         """
         L = 0
         R = 1
-        max_profit = 0
+        max_price = 0
         
         while R < len(prices):
             if prices[L] > prices[R]:
-                L = R
+                L += 1
+                R = L
+            else:
+                curr_price = prices[R] - prices[L]
+                max_price = max(curr_price, max_price)
             
-            max_profit = max(max_profit, prices[R] - prices[L])
             R += 1
             
-        return max_profit
+        return max_price
