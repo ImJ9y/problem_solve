@@ -5,20 +5,26 @@ class Solution(object):
         :type target: int
         :rtype: int
         """
-        L, R = 0, len(nums)-1
         
-        while L <= R:
+        L = 0
+        R = len(nums)-1
+        
+        if nums[0] == target:
+            return 0
+        
+        while L < R:
             if nums[L] == target:
                 return L
             elif nums[R] == target:
                 return R
             
-            M = (L + R)/2
+            M = (L+R)/2
             
-            if nums[M] < target:
+            if nums[M] > target:
                 L += 1
-            else:
+            elif nums[M] < target:
                 R -= 1
+            elif nums[M] == target:
+                return M
         
         return -1
-        
