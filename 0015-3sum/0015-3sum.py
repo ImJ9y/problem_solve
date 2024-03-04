@@ -25,7 +25,4 @@ class Solution(object):
                         L += 1
         
         return ans
-
                 
-                    
-            
