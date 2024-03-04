@@ -4,21 +4,27 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        L, R = 0, len(nums) -1
+        
+        L = 0
+        R = len(nums)-1
         answer = 0
         
         if len(nums) == 1:
             return nums[0]
         
-        while L < R:
+        
+        while L <= R:
             answer = min(nums[L], nums[R])
+            
             M = (L+R)/2
             answer = min(answer, nums[M])
             
-            if nums[M] < nums[R]:
-                R -= 1
-            else:
+            if nums[R] < nums[M]:
                 L += 1
-            
+            else:
+                R -= 1
+        
         return answer
-            
+                
+                
+          
