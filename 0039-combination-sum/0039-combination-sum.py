@@ -5,8 +5,7 @@ class Solution(object):
         :type target: int
         :rtype: List[List[int]]
         """
-        dp = [[] for _ in range(target+1)]
-        
+        dp = [[] for i in range(target+1)]
         for c in candidates:
             for i in range(1, target+1):
                 if i < c: 
