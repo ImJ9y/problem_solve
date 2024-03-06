@@ -6,15 +6,15 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         dp = [[] for i in range(target+1)]
+        
         for c in candidates:
-            for i in range(1, target+1):
-                if i < c: 
-                    continue
+            for i in range(target + 1):
+                if i < c: continue
                 
                 if i == c:
                     dp[i].append([c])
-                
                 else:
-                    for secList in dp[i-c]:
-                        dp[i].append(secList+[c])
+                    for secondList in dp[i-c]:
+                        dp[i].append(secondList + [c])
+        
         return dp[target]
