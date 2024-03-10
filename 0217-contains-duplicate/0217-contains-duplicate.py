@@ -4,9 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        
         seen = {}
-        
         for i in range(len(nums)):
             if nums[i] in seen:
                 return True
