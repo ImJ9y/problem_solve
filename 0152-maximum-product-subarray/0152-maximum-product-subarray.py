@@ -4,18 +4,13 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        min_num, max_num = 1,1
+        max_product = max(nums)
         
-        curr_min, curr_max = 1, 1
-        max_num = max(nums)
-        
-        for num in nums:
-            if num == 0:
-                curr_min, curr_max = 1, 1
+        for n in nums:
+            temp = max_num * n
+            max_num = max(min_num * n, max_num * n, n)
+            min_num = min(min_num * n, temp, n)
+            max_product = max(max_num, min_num, max_product)
             
-            temp = curr_max * num
-            curr_max = max(curr_min * num, curr_max * num, num)
-            curr_min = min(curr_min * num, temp ,num)
-            
-            max_num = max(curr_max, max_num)
-        
-        return max_num
+        return max_product
