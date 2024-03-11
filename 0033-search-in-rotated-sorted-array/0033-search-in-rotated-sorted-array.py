@@ -18,12 +18,12 @@ class Solution(object):
                 return R
             
             M = (L+R)/2
-            if nums[M] == target:
-                return M
             
-            if nums[M] > nums[R]:
+            if nums[M] > target:
                 L += 1
-            else:
+            elif nums[M] < target:
                 R -= 1
+            elif nums[M] == target:
+                return M
             
         return -1
