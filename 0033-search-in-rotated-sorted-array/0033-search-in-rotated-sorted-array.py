@@ -8,7 +8,7 @@ class Solution(object):
         L = 0
         R = len(nums)-1
         
-        if len(nums) == 1 and nums[0] == target:
+        if nums[0] == target:
             return 0
         
         while L < R:
