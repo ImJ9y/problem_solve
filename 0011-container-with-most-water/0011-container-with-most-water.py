@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: int
         """
         L = 0
-        R = len(height) -1
+        R = len(height)-1
         ans = 0
         
         while L < R:
@@ -18,3 +18,4 @@ class Solution(object):
                 R -= 1
         
         return ans
+        
