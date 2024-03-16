@@ -8,6 +8,6 @@ class Solution(object):
         ans = ""
         for c in s:
             if c.isalnum():
-                ans += c
+                ans += c.lower()
         
-        return ans.lower() == ans[::-1].lower()
+        return ans == ans[::-1]
