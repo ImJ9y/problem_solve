@@ -13,3 +13,4 @@ class Solution(object):
                 return seen[diff], i
             else:
                 seen[nums[i]] = i
+        
