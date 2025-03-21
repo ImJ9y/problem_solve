@@ -48,4 +48,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
+## String
+|  |
+| ------- |
+| [0006-zigzag-conversion](https://github.com/ImJ9y/problem_solve/tree/master/0006-zigzag-conversion) |
 <!---LeetCode Topics End-->
