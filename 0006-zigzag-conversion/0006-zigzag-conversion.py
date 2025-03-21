@@ -9,19 +9,20 @@ class Solution(object):
             return s
 
         ans = [[] for _ in range(numRows)]
-        row = 0
-        j = 0
-        for i in range(len(s)):
-            j = j + row
-            ans[j].append(s[i])
+        
+        i = 0
+        dep = 0
 
-            if j == 0:
-                row = 1
-            if j == numRows-1:
-                row = -1
+        for char in s:
+            if i == numRows-1:
+                dep = -1
+            if i == 0:
+                dep = 1
+            
+            ans[i].append(char)
+            i += dep
 
         result = ""
-
         for s in ans:
             result += "".join(s)
         
