@@ -58,4 +58,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/ImJ9y/problem_solve/tree/master/0048-rotate-image) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
