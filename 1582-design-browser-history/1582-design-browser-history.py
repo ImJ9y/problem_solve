@@ -1,8 +1,8 @@
 class ListNode(object):
-    def __init__(self, val, next = None, prev = None):
+    def __init__(self, val, prev = None, next = None):
         self.val = val
-        self.next = next
         self.prev = prev
+        self.next = next
 
 class BrowserHistory(object):
 
@@ -21,11 +21,13 @@ class BrowserHistory(object):
         self.cur.next = ListNode(url, prev = self.cur)
         self.cur = self.cur.next
         
+
     def back(self, steps):
         """
         :type steps: int
         :rtype: str
         """
+
         while self.cur.prev and steps > 0:
             steps -= 1
             self.cur = self.cur.prev
@@ -43,6 +45,7 @@ class BrowserHistory(object):
             self.cur = self.cur.next
         
         return self.cur.val
+        
 
 
 # Your BrowserHistory object will be instantiated and called as such:
