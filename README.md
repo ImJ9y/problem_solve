@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0206-reverse-linked-list) |
+| [0838-design-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0838-design-linked-list) |
 | [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
 ## Recursion
 |  |
@@ -75,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0838-design-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0838-design-linked-list) |
 | [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
 ## Doubly-Linked List
 |  |
