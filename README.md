@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ImJ9y/problem_solve/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0238-product-of-array-except-self](https://github.com/ImJ9y/problem_solve/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
+| [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
 ## Matrix
 |  |
 | ------- |
@@ -62,8 +63,25 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0206-reverse-linked-list) |
+| [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
 ## Recursion
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0206-reverse-linked-list) |
+## Stack
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
+## Design
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
+## Data Stream
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
 <!---LeetCode Topics End-->
