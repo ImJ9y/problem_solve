@@ -21,4 +21,4 @@ class Solution(object):
             else:
                 cur = cur.next
         
-        return head #updated linked list.
+        return head
