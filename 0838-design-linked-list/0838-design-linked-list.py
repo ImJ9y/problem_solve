@@ -5,12 +5,12 @@ class ListNode(object):
         self.next = next
 
 class MyLinkedList(object):
+
     def __init__(self):
         self.left = ListNode(0)
         self.right = ListNode(0)
         self.left.next = self.right
         self.right.prev = self.left
-        
 
     def get(self, index):
         """
@@ -19,6 +19,7 @@ class MyLinkedList(object):
         """
         i = 0
         cur = self.left.next
+
         while cur:
             if i == index and cur.next:
                 return cur.val
@@ -26,7 +27,6 @@ class MyLinkedList(object):
             cur = cur.next
         
         return -1
-
 
     def addAtHead(self, val):
         """
@@ -42,7 +42,8 @@ class MyLinkedList(object):
 
         new_head.next = next
         new_head.prev = prev
-        
+
+
 
     def addAtTail(self, val):
         """
@@ -59,6 +60,8 @@ class MyLinkedList(object):
         new_head.next = next
         new_head.prev = prev
 
+
+
     def addAtIndex(self, index, val):
         """
         :type index: int
@@ -66,6 +69,7 @@ class MyLinkedList(object):
         :rtype: None
         """
         cur = self.left.next
+
         while cur and index > 0:
             index -= 1
             cur = cur.next
@@ -75,12 +79,13 @@ class MyLinkedList(object):
             next = cur
             prev = cur.prev
 
-            prev.next = new_head
             next.prev = new_head
+            prev.next = new_head
 
             new_head.next = next
             new_head.prev = prev
-        
+
+
 
     def deleteAtIndex(self, index):
         """
@@ -92,13 +97,14 @@ class MyLinkedList(object):
         while cur and index > 0:
             index -= 1
             cur = cur.next
-
-        if cur and index == 0 and cur != self.right:
-            next = cur.next 
+        
+        if index == 0 and cur and cur.next:
+            next = cur.next
             prev = cur.prev
 
             next.prev = prev
             prev.next = next
+        
 
 
 # Your MyLinkedList object will be instantiated and called as such:
