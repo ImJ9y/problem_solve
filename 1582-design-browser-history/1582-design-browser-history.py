@@ -1,5 +1,5 @@
 class ListNode(object):
-    def __init__(self, val, prev = None, next = None):
+    def __init__(self, val, prev =None, next = None):
         self.val = val
         self.prev = prev
         self.next = next
@@ -18,7 +18,7 @@ class BrowserHistory(object):
         :type url: str
         :rtype: None
         """
-        self.cur.next = ListNode(url, prev = self.cur)
+        self.cur.next = ListNode(url, prev=self.cur)
         self.cur = self.cur.next
         
 
@@ -27,13 +27,11 @@ class BrowserHistory(object):
         :type steps: int
         :rtype: str
         """
-
         while self.cur.prev and steps > 0:
             steps -= 1
             self.cur = self.cur.prev
         
         return self.cur.val
-        
 
     def forward(self, steps):
         """
