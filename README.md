@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/ImJ9y/problem_solve/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/ImJ9y/problem_solve/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ImJ9y/problem_solve/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ImJ9y/problem_solve/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ImJ9y/problem_solve/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0238-product-of-array-except-self](https://github.com/ImJ9y/problem_solve/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
@@ -28,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ImJ9y/problem_solve/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ImJ9y/problem_solve/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
 ## Greedy
