@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0075-sort-colors](https://github.com/ImJ9y/problem_solve/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ImJ9y/problem_solve/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [1894-merge-strings-alternately](https://github.com/ImJ9y/problem_solve/tree/master/1894-merge-strings-alternately) |
 ## Sorting
 |  |
 | ------- |
@@ -56,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/ImJ9y/problem_solve/tree/master/0006-zigzag-conversion) |
+| [1894-merge-strings-alternately](https://github.com/ImJ9y/problem_solve/tree/master/1894-merge-strings-alternately) |
 ## Math
 |  |
 | ------- |
