@@ -5,16 +5,13 @@ class Solution(object):
         :rtype: int
         """
         max_profit = 0
-        
-        L = 0
-        R = 1
-        
-        while R < len(prices):
-            if prices[L] > prices[R]:
-                L = R
-            
-            curr_profit = prices[R] - prices[L]
-            max_profit = max(max_profit, curr_profit)
-            R += 1
+        cur = prices[0]
+        for price in prices:
+            if cur < price:
+                max_profit = max(max_profit, price-cur)
+            else:
+                cur = price
         
         return max_profit
+            
+                
