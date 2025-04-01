@@ -7,9 +7,11 @@ class Solution(object):
         """
         S = len(s)
         T = len(t)
+
         j = 0
         for i in range(T):
             if j < S and s[j] == t[i]:
                 j += 1
-        
-        return S == j
+
+        return j == S
+            
