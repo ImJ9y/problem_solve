@@ -10,6 +10,7 @@ class Solution(object):
         :type list2: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
+        
         dummy_list = ListNode(0)
         tail = dummy_list
 
@@ -27,11 +28,12 @@ class Solution(object):
             tail.next = list1
             list1 = list1.next
             tail = tail.next
-    
+        
         while list2:
             tail.next = list2
             list2 = list2.next
             tail = tail.next
         
         return dummy_list.next
+        
         
