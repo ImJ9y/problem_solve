@@ -79,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0019-remove-nth-node-from-end-of-list](https://github.com/ImJ9y/problem_solve/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/ImJ9y/problem_solve/tree/master/0021-merge-two-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/ImJ9y/problem_solve/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0138-copy-list-with-random-pointer](https://github.com/ImJ9y/problem_solve/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ImJ9y/problem_solve/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0206-reverse-linked-list) |
 | [0838-design-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0838-design-linked-list) |
@@ -114,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0138-copy-list-with-random-pointer](https://github.com/ImJ9y/problem_solve/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ImJ9y/problem_solve/tree/master/0141-linked-list-cycle) |
 ## Binary Search
 |  |
