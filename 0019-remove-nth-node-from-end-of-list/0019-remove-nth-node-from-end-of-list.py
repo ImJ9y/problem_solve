@@ -10,9 +10,8 @@ class Solution(object):
         :type n: int
         :rtype: Optional[ListNode]
         """
-        
-        dummy = ListNode(0, head)
-        left = dummy
+        dummy_list = ListNode(0, head)
+        left = dummy_list
         right = head
 
         while n > 0 and right:
@@ -25,4 +24,4 @@ class Solution(object):
         
         left.next = left.next.next
 
-        return dummy.next
+        return dummy_list.next
