@@ -9,21 +9,21 @@ class MyStack(object):
         :type x: int
         :rtype: None
         """
-        self.stack.append(x)
+        self.stack.appendleft(x)
         
 
     def pop(self):
         """
         :rtype: int
         """
-        return self.stack.pop()
+        return self.stack.popleft()
         
 
     def top(self):
         """
         :rtype: int
         """
-        return self.stack[-1]
+        return self.stack[0]
         
 
     def empty(self):
