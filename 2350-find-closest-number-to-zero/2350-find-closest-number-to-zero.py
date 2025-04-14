@@ -4,13 +4,13 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        closest_num = nums[0]
+        close_num = nums[0]
 
-        for i in range(len(nums)):
-            if abs(nums[i]) < abs(closest_num):
-                closest_num = nums[i]
-            elif abs(nums[i]) == abs(closest_num):
-                if nums[i] > closest_num:
-                    closest_num = nums[i]
+        for num in nums:
+            if abs(close_num) > abs(num):
+                close_num = num
+            elif abs(close_num) == abs(num):
+                if close_num < num:
+                    close_num = num
         
-        return closest_num
+        return close_num
