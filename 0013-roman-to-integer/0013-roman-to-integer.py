@@ -4,22 +4,22 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        s = s.replace("IV","IIII").replace("IX","VIIII").replace("XL","XXXX").replace("XC","LXXXX").replace("CD","CCCC").replace("CM","DCCCC")
-        sum = 0
-        for symbol in s:
-            if symbol == 'M':
-                sum += 1000
-            elif symbol == 'D':
-                sum += 500
-            elif symbol == 'C':
-                sum += 100
-            elif symbol == 'L':
-                sum += 50
-            elif symbol == 'X':
-                sum += 10
-            elif symbol == 'V':
-                sum += 5
+        symbols = {
+            'I':1,
+            'V':5,
+            'X':10,
+            'L':50,
+            'C':100,
+            'D':500,
+            'M':1000
+        }
+
+        total = 0
+
+        for i in range(len(s)):
+            if i < len(s)-1 and symbols[s[i]] < symbols[s[i+1]]:
+                total -= symbols[s[i]]
             else:
-                sum += 1
-        
-        return sum
+                total += symbols[s[i]]
+
+        return total
