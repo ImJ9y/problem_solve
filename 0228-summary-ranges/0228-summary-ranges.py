@@ -4,6 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[str]
         """
+        
         ans = []
         i = 0
 
@@ -14,11 +15,10 @@ class Solution(object):
                 i += 1
             
             if start < nums[i]:
-                ans.append((str(start) + "->" + str(nums[i])))
+                ans.append(str(start) + "->" + str(nums[i]))
             else:
                 ans.append(str(start))
-
+            
             i += 1
-
-
+        
         return ans
