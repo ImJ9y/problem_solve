@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0006-zigzag-conversion](https://github.com/ImJ9y/problem_solve/tree/master/0006-zigzag-conversion) |
 | [0013-roman-to-integer](https://github.com/ImJ9y/problem_solve/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/ImJ9y/problem_solve/tree/master/0014-longest-common-prefix) |
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/ImJ9y/problem_solve/tree/master/1894-merge-strings-alternately) |
 ## Math
@@ -138,4 +139,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/ImJ9y/problem_solve/tree/master/0225-implement-stack-using-queues) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ImJ9y/problem_solve/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/ImJ9y/problem_solve/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
