@@ -4,14 +4,11 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
-        if not strs:
-            return ""
         
         prefix = strs[0]
-        
-        for word in strs:
-            while word.find(prefix) != 0:
+
+        for s in strs:
+            while s.find(prefix):
                 prefix = prefix[:-1]
 
         return prefix
-            
