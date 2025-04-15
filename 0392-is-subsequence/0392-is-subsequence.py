@@ -8,10 +8,10 @@ class Solution(object):
         S = len(s)
         T = len(t)
 
-        j = 0
-        for i in range(T):
-            if j < S and s[j] == t[i]:
-                j += 1
+        i = 0
 
-        return j == S
-            
+        for j in range(len(t)):
+            if i < S and s[i] == t[j]:
+                i += 1
+        
+        return S == i
