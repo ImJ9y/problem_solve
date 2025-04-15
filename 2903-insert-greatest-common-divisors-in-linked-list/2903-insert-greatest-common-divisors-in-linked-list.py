@@ -5,28 +5,27 @@
 #         self.next = next
 class Solution(object):
     def helper(self, a, b):
+
         while b:
-            a,b = b,a%b
-        
+            a, b = b, a%b
+
         return a
-    
+
     def insertGreatestCommonDivisors(self, head):
         """
         :type head: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
+
         cur = head
 
         while cur and cur.next:
-            greatestCommon = self.helper(cur.val, cur.next.val)
-
-            temp = cur.next
-            
-            new_head = ListNode(greatestCommon)
+            greatest_common = self.helper(cur.val, cur.next.val)
+            new_head = ListNode(greatest_common)
             new_head.next = cur.next
             cur.next = new_head
 
-            cur = temp
+            cur = new_head.next
         
         return head
-            
+        
