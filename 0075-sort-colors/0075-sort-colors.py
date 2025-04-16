@@ -14,6 +14,6 @@ class Solution(object):
         BLUE = ans[2]
 
         nums[:RED] = [0] * RED
-        nums[RED:WHITE+BLUE] = [1] * WHITE
-        nums[WHITE+BLUE:] = [2] * BLUE
+        nums[RED:WHITE+RED] = [1] * WHITE
+        nums[WHITE+RED:] = [2] * BLUE
 
