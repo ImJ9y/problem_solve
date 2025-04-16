@@ -4,14 +4,16 @@ class Solution(object):
         :type citations: List[int]
         :rtype: int
         """
-        paper_count = [0] * (len(citations)+1)
+        length = len(citations)
+        paper_count = [0] * (length+1)
+        i = 0
 
-        for citation in citations:
-            if citation >= len(citations):
+        for i in range(length):
+            if citations[i] >= length:
                 paper_count[-1] += 1
             else:
-                paper_count[citation] += 1
-
+                paper_count[citations[i]] += 1
+        
         h = len(citations)
         paper = paper_count[h]
 
