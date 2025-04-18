@@ -7,24 +7,24 @@ class Solution(object):
         """
         if numRows == 1:
             return s
-
-        ans = [[] for _ in range(numRows)]
         
-        i = 0
-        dep = 0
+        down = 0
+        row = 0
+        ans = [''] * numRows
 
-        for char in s:
-            if i == numRows-1:
-                dep = -1
-            if i == 0:
-                dep = 1
+        for c in s:
+            ans[row] += c
+
+            if row == numRows-1:
+                down = -1
+            if row == 0:
+                down = 1
             
-            ans[i].append(char)
-            i += dep
+            row += down
 
         result = ""
-        for s in ans:
-            result += "".join(s)
+        for st in ans:
+            result += "".join(st)
         
         return result
             
