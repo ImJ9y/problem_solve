@@ -9,6 +9,7 @@ class Solution(object):
         :type head: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
+        
         cur = head
 
         while cur and cur.next:
@@ -16,5 +17,5 @@ class Solution(object):
                 cur.next = cur.next.next
             else:
                 cur = cur.next
-
+        
         return head
