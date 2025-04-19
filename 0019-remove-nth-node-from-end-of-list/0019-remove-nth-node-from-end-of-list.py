@@ -10,18 +10,19 @@ class Solution(object):
         :type n: int
         :rtype: Optional[ListNode]
         """
+        
         dummy_list = ListNode(0, head)
         left = dummy_list
         right = head
 
         while n > 0 and right:
-            n -= 1
             right = right.next
+            n -= 1
         
         while right:
             left = left.next
             right = right.next
         
         left.next = left.next.next
-
+    
         return dummy_list.next
