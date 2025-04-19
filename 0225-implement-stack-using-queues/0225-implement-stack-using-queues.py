@@ -2,7 +2,6 @@ class MyStack(object):
 
     def __init__(self):
         self.stack = collections.deque()
-        
 
     def push(self, x):
         """
@@ -10,14 +9,12 @@ class MyStack(object):
         :rtype: None
         """
         self.stack.appendleft(x)
-        
 
     def pop(self):
         """
         :rtype: int
         """
         return self.stack.popleft()
-        
 
     def top(self):
         """
@@ -30,7 +27,7 @@ class MyStack(object):
         """
         :rtype: bool
         """
-        return False if self.stack else True
+        return True if not self.stack else False
         
 
 
