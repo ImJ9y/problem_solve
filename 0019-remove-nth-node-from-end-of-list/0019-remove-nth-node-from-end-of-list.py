@@ -11,18 +11,20 @@ class Solution(object):
         :rtype: Optional[ListNode]
         """
         
-        dummy_list = ListNode(0, head)
-        left = dummy_list
-        right = head
+        cur = head
+        count = 0
 
-        while n > 0 and right:
-            right = right.next
-            n -= 1
+        while cur:
+            count += 1
+            cur = cur.next
         
-        while right:
-            left = left.next
-            right = right.next
+        cur = head
+        if count - n == 0:
+            return head.next
+
+        for i in range(count - n - 1):
+            cur = cur.next
         
-        left.next = left.next.next
-    
-        return dummy_list.next
+        cur.next = cur.next.next
+
+        return head
