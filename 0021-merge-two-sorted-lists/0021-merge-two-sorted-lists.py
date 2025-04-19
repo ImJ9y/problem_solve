@@ -20,7 +20,7 @@ class Solution(object):
             else:
                 tail.next = list2
                 list2 = list2.next
-            
+        
             tail = tail.next
         
         while list1:
