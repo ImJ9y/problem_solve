@@ -12,8 +12,8 @@ class Solution(object):
                 while q[0] != sandwich:
                     temp = q.popleft()
                     q.append(temp)
-                
                 q.popleft()
+                
             else:
                 return len(q)
             
