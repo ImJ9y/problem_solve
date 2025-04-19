@@ -16,5 +16,5 @@ class Solution(object):
             cur.next = prev
             prev = cur
             cur = temp
-
+        
         return prev
