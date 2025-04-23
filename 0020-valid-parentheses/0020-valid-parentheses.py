@@ -4,21 +4,22 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
+        ans = []
+
+        closed_brackets = {')':'('
+                          ,']':'['
+                          ,'}':'{'}
+
         
-        answer = []
-        closeToOpen = {")":"(", "}":"{", "]":"["}
-        
-        for symbol in s:
-            if symbol in closeToOpen:
-                if answer and answer[-1] == closeToOpen[symbol]:
-                    answer.pop()
+        for b in s:
+            if b in closed_brackets:
+                if ans and ans[-1] == closed_brackets[b]:
+                    ans.pop()
                 else:
                     return False
             else:
-                answer.append(symbol)
+                ans.append(b)
         
-        return not answer
-                     
-        
-        
-        
+        return True if not(ans) else False
+
+            
