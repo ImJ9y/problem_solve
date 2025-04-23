@@ -12,8 +12,8 @@ class Solution(object):
 
         
         for b in s:
-            if b in closed_brackets:
-                if ans and ans[-1] == closed_brackets[b]:
+            if b in closed_brackets and ans:
+                if ans[-1] == closed_brackets[b]:
                     ans.pop()
                 else:
                     return False
