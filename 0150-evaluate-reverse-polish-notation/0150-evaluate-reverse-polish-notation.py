@@ -4,7 +4,7 @@ class Solution(object):
         :type tokens: List[str]
         :rtype: int
         """
-
+        
         if len(tokens) == 1:
             return int(tokens[0])
 
