@@ -8,25 +8,14 @@ class Solution(object):
         score_board = []
 
         for op in operations:
-            score_board.append(op)
-
-            if score_board[-1] == '+':
-                score_board.pop()
-                new_num = int(score_board[-1]) + int(score_board[-2])
+            if op == '+':
+                new_num = score_board[-1] + score_board[-2]
                 score_board.append(new_num)
-
-            elif score_board[-1] == 'D':
-                score_board.pop()
-                double = 2 * int(score_board[-1])
-                score_board.append(double)
-            
-            elif score_board[-1] == 'C':
-                score_board.pop()
+            elif op == 'D':
+                score_board.append(2 * score_board[-1])
+            elif op == 'C':
                 score_board = score_board[:-1]
-            
-            print(score_board)
+            else:
+                score_board.append(int(op))
         
-        for score in score_board:
-            total += int(score)
-        
-        return total
+        return sum(score_board)
