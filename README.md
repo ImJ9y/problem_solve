@@ -78,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0006-zigzag-conversion](https://github.com/ImJ9y/problem_solve/tree/master/0006-zigzag-conversion) |
 | [0013-roman-to-integer](https://github.com/ImJ9y/problem_solve/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/ImJ9y/problem_solve/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/ImJ9y/problem_solve/tree/master/0020-valid-parentheses) |
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/ImJ9y/problem_solve/tree/master/1894-merge-strings-alternately) |
 ## Math
@@ -107,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/ImJ9y/problem_solve/tree/master/0020-valid-parentheses) |
 | [0225-implement-stack-using-queues](https://github.com/ImJ9y/problem_solve/tree/master/0225-implement-stack-using-queues) |
 | [0682-baseball-game](https://github.com/ImJ9y/problem_solve/tree/master/0682-baseball-game) |
 | [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
