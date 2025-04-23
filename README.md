@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ImJ9y/problem_solve/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ImJ9y/problem_solve/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ImJ9y/problem_solve/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0228-summary-ranges](https://github.com/ImJ9y/problem_solve/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/ImJ9y/problem_solve/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
@@ -86,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0013-roman-to-integer](https://github.com/ImJ9y/problem_solve/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/ImJ9y/problem_solve/tree/master/0048-rotate-image) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ImJ9y/problem_solve/tree/master/0150-evaluate-reverse-polish-notation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Linked List
 |  |
@@ -109,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ImJ9y/problem_solve/tree/master/0020-valid-parentheses) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ImJ9y/problem_solve/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0225-implement-stack-using-queues](https://github.com/ImJ9y/problem_solve/tree/master/0225-implement-stack-using-queues) |
 | [0682-baseball-game](https://github.com/ImJ9y/problem_solve/tree/master/0682-baseball-game) |
 | [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
