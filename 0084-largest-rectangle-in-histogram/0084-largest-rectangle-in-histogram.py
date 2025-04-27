@@ -14,7 +14,7 @@ class Solution(object):
                 max_area = max(max_area, stackHeight * (i - stackIndex))
                 start = stackIndex
             
-            stack.append([start, height])
+            stack.append((start, height))
         
         for i, height in stack:
             max_area = max(max_area, height * (len(heights)-i))
