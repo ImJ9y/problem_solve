@@ -5,19 +5,17 @@ class Solution(object):
         :rtype: int
         """
         max_area = 0
-        stack = [] #[i, height]
+        stack = []
 
         for i, height in enumerate(heights):
             start = i
             while stack and stack[-1][1] > height:
-                stackindex, stackheight = stack.pop()
-                max_area = max(max_area, stackheight * (i-stackindex))
-                start = stackindex
-
+                stackIndex, stackHeight = stack.pop()
+                max_area = max(max_area, stackHeight * (i - stackIndex))
+                start = stackIndex
             stack.append([start, height])
-
-        for i, height in stack:
-            max_area = max(max_area, height * (len(heights)-i))
-
+        
+        for i,height in stack:
+            max_area = max(max_area, height * (len(heights) -i))
         
         return max_area
