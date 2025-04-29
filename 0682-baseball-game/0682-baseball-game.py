@@ -4,17 +4,19 @@ class Solution(object):
         :type operations: List[str]
         :rtype: int
         """
+        stack = []
+        temp = 0
         total = 0
-        score_board = []
 
         for op in operations:
-            if op == '+':
-                score_board.append(score_board[-1] + score_board[-2])
-            elif op == 'D':
-                score_board.append(2 * score_board[-1])
-            elif op == 'C':
-                score_board.pop()
+            if stack and op in '+DC':
+                if op == '+':
+                    stack.append(stack[-1]+stack[-2])
+                elif op == 'D':
+                    stack.append(stack[-1] * 2)
+                elif op == 'C':
+                    temp = stack.pop()
             else:
-                score_board.append(int(op))
-        
-        return sum(score_board)
+                stack.append(int(op))
+            
+        return sum(stack)
