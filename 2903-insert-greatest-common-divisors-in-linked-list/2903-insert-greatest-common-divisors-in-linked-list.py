@@ -15,12 +15,11 @@ class Solution(object):
         :type head: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-        
+
         cur = head
 
         while cur and cur.next:
             greatest_common = self.helper(cur.val, cur.next.val)
-
             new_node = ListNode(greatest_common)
             new_node.next = cur.next
             cur.next = new_node
@@ -28,4 +27,4 @@ class Solution(object):
             cur = new_node.next
         
         return head
-            
+    
