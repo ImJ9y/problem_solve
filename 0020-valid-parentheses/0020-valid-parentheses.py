@@ -4,10 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        closed_brackets = {")" :"(",
-                            "}":"{",
-                            "]":"["
-                        }
+        closed_brackets = {")":"(","}":"{","]":"["}
         stack = []
 
         for bracket in s:
