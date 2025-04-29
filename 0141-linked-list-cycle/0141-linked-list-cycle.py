@@ -10,8 +10,6 @@ class Solution(object):
         :type head: ListNode
         :rtype: bool
         """
-
-        #floyd's tortoise and hare
         slow, fast = head, head
 
         while fast and fast.next:
