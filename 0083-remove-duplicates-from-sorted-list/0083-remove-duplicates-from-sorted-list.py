@@ -9,7 +9,6 @@ class Solution(object):
         :type head: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-        
         cur = head
 
         while cur and cur.next:
