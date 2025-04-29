@@ -5,8 +5,6 @@ class Solution(object):
         :rtype: int
         """
         stack = []
-        temp = 0
-        total = 0
 
         for op in operations:
             if stack and op in '+DC':
