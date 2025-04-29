@@ -19,7 +19,6 @@ class MinStack(object):
         """
         self.stack.pop()
         self.min_stack.pop()
-        
 
     def top(self):
         """
