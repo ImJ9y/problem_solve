@@ -23,7 +23,5 @@ class Solution(object):
             else:
                 stack.append(int(token))
 
-        
-
         return stack[-1]
         
