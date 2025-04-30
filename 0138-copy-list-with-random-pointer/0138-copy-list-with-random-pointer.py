@@ -13,22 +13,21 @@ class Solution(object):
         :type head: Node
         :rtype: Node
         """
-        
-        copy_old = {None:None}
+        old_copy = {None:None}
 
         cur = head
         while cur:
             copy = Node(cur.val)
-            copy_old[cur] = copy
+            old_copy[cur] = copy
 
             cur = cur.next
         
         cur = head
         while cur:
-            copy = copy_old[cur]
-            copy.next = copy_old[cur.next]
-            copy.random = copy_old[cur.random]
+            copy = old_copy[cur]
+            copy.next = old_copy[cur.next]
+            copy.random = old_copy[cur.random]
 
             cur = cur.next
         
-        return copy_old[head]
+        return old_copy[head]
