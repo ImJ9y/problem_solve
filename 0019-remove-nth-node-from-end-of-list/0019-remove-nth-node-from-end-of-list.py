@@ -15,27 +15,27 @@ class Solution(object):
         # right = head
 
         # while n > 0 and right:
-        #     n -= 1
         #     right = right.next
+        #     n -= 1
         
         # while right:
         #     left = left.next
         #     right = right.next
         
         # left.next = left.next.next
-
+    
         # return dummy_list.next
-        
+
         cur = head
         count = 0
 
         while cur:
-            count += 1
             cur = cur.next
-    
+            count += 1
+        
         if count - n == 0:
             return head.next
-
+        
         cur = head
         for i in range(count - n - 1):
             cur = cur.next
@@ -43,4 +43,3 @@ class Solution(object):
         cur.next = cur.next.next
 
         return head
-        
