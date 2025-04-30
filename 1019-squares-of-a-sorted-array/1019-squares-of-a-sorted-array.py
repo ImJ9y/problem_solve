@@ -4,9 +4,5 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        squared_list = []
-
-        for num in nums:
-            squared_list.append(num*num)
         
-        return sorted(squared_list)
+        return sorted(num * num for num in nums)
