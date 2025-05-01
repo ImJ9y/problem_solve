@@ -4,8 +4,8 @@ class Solution(object):
         :type intervals: List[List[int]]
         :rtype: List[List[int]]
         """
-        
         ans = []
+
         intervals.sort()
 
         for interval in intervals:
