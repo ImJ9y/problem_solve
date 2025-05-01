@@ -16,10 +16,10 @@ class Solution(object):
         old_copy = {None:None}
 
         cur = head
+
         while cur:
             copy = Node(cur.val)
             old_copy[cur] = copy
-
             cur = cur.next
         
         cur = head
