@@ -13,7 +13,6 @@ class Solution(object):
             'D':500,
             'M':1000
         }
-
         total = 0
 
         for i in range(len(s)):
@@ -21,5 +20,5 @@ class Solution(object):
                 total -= symbols[s[i]]
             else:
                 total += symbols[s[i]]
-
+        
         return total
