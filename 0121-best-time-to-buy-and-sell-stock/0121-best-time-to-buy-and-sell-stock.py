@@ -4,14 +4,13 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        
-        max_profit = 0
+        total = 0
         cur = prices[0]
-
         for price in prices:
-            if cur > price:
+            if cur < price:
+                total = max(total, price - cur)
+            else:
                 cur = price
-            
-            max_profit = max(max_profit, price - cur)
         
-        return max_profit
+        return total
+            
