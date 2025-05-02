@@ -5,26 +5,28 @@ class Solution(object):
         :type numRows: int
         :rtype: str
         """
+
         if numRows == 1:
             return s
-        
-        down = 0
-        row = 0
+
         ans = [''] * numRows
+        row = 0
+        i = 0
 
         for c in s:
-            ans[row] += c
+            row += i
 
             if row == numRows-1:
-                down = -1
+                i = -1
             if row == 0:
-                down = 1
+                i = 1
             
-            row += down
+            ans[row] += c
 
         result = ""
-        for st in ans:
-            result += "".join(st)
+
+        for s in ans:
+            result += "".join(s)
         
         return result
             
