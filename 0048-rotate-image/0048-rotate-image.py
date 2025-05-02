@@ -10,20 +10,20 @@ class Solution(object):
             for i in range(RIGHT-LEFT):
                 TOP, BOTTOM = LEFT, RIGHT
 
-                #Save TOP LEFT value
+                #Save TOP LEFT
                 TOPLEFT = matrix[TOP][LEFT+i]
 
-                #Save BOTTOM LEFT value to TOP LEFT
+                #BOTTOM LEFT to TOP LEFT
                 matrix[TOP][LEFT+i] = matrix[BOTTOM-i][LEFT]
 
-                #Save BOTTOM RIGHT value to BOTTOM LEFT
+                #BOTTOM RIGHT to BOTTOM LEFT
                 matrix[BOTTOM-i][LEFT] = matrix[BOTTOM][RIGHT-i]
 
-                #Save TOP RIGHT value to BOTTOM RIGHT
+                #TOP RIGHT to BOTTOM RIGHT
                 matrix[BOTTOM][RIGHT-i] = matrix[TOP+i][RIGHT]
 
-                #Save TOP LEFT value to TOP RIGHT
+                #TOP LEFT to TOP RIGHT
                 matrix[TOP+i][RIGHT] = TOPLEFT
-
+            
             LEFT += 1
             RIGHT -= 1
