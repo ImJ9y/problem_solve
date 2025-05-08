@@ -10,4 +10,13 @@ class Solution(object):
             if c.isalnum():
                 res += c.lower()
         
-        return res == res[::-1]
+        L, R = 0, len(res)-1
+        while L < R:
+            if res[L] == res[R]:
+                L += 1
+                R -= 1
+            else:
+                return False
+        return True
+
+        # return res == res[::-1]
