@@ -7,16 +7,12 @@ class Solution(object):
         """
         L, R = 0, len(numbers)-1
 
-        while L < R:
-            total = numbers[L] + numbers[R]
 
-            if total == target:
-                return [L+1,R+1]
-            elif total > target:
+        while L < len(numbers):
+            if numbers[L] + numbers[R] > target:
                 R -= 1
-            else:
+            elif numbers[L] + numbers[R] < target:
                 L += 1
+            else:
+                return L+1, R+1
         
-
-
-                     
