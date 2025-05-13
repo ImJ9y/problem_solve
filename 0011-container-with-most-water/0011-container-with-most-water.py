@@ -13,10 +13,10 @@ class Solution(object):
             cur_area = min(height[L], height[R]) * (R-L)
             if max_area < cur_area:
                 max_area = cur_area
+            
+            if height[L] < height[R]:
+                L += 1
             else:
-                if height[L] < height[R]:
-                    L += 1
-                else:
-                    R -= 1
+                R -= 1
         
         return max_area
