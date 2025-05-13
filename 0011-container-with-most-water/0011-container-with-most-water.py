@@ -4,18 +4,19 @@ class Solution(object):
         :type height: List[int]
         :rtype: int
         """
-        L = 0
-        R = len(height)-1
+
         max_area = 0
-        
+
+        L, R = 0, len(height)-1
+
         while L < R:
-            area = (R-L) * min(height[L], height[R])
-            max_area = max(max_area, area)
-            
-            if height[L] < height[R]:
-                L += 1
+            cur_area = min(height[L], height[R]) * (R-L)
+            if max_area < cur_area:
+                max_area = cur_area
             else:
-                R -= 1
+                if height[L] < height[R]:
+                    L += 1
+                else:
+                    R -= 1
         
         return max_area
-            
