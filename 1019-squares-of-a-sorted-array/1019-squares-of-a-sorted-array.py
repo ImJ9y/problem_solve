@@ -4,15 +4,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        res = []
-        L, R = 0, len(nums)-1
+        ans = []
 
-        while L <= R:
-            if nums[L] * nums[L] < nums[R] *nums[R]:
-                res.append(nums[R] * nums[R])
-                R -= 1
-            else:
-                res.append(nums[L] * nums[L])
-                L += 1
-        
-        return res[::-1]
+        for num in nums:
+            ans.append(num * num)
+
+        ans.sort()
+        return ans
