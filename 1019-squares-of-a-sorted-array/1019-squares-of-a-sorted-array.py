@@ -5,9 +5,14 @@ class Solution(object):
         :rtype: List[int]
         """
         ans = []
+        L, R = 0, len(nums)-1
 
-        for num in nums:
-            ans.append(num * num)
-
-        ans.sort()
-        return ans
+        while L <= R:
+            if nums[L] * nums[L] < nums[R] * nums[R]:
+                ans.append(nums[R] * nums[R])
+                R -= 1
+            else:
+                ans.append(nums[L] * nums[L])
+                L += 1
+        
+        return ans[::-1]
