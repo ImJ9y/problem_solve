@@ -6,9 +6,8 @@ class Solution(object):
         """
         L, R = 0, len(s)-1
 
-        while L < R:
-            s[L], s[R] = s[R], s[L]
+        while L <= R:
+            s[L],s[R] = s[R],s[L]
             L += 1
             R -= 1
-        
         
