@@ -4,19 +4,19 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        res = ""
 
+        new_str = ""
         for c in s:
             if c.isalnum():
-                res += c.lower()
-        
-        L, R = 0, len(res)-1
+                new_str += c.lower()
+
+        L, R = 0, len(new_str)-1
+
         while L < R:
-            if res[L] == res[R]:
+            if new_str[L] == new_str[R]:
                 L += 1
                 R -= 1
             else:
                 return False
+        
         return True
-
-        # return res == res[::-1]
