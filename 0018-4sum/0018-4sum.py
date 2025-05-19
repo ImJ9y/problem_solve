@@ -28,13 +28,12 @@ class Solution(object):
                         R -= 1
                     else:
                         ans.append([nums[i], nums[j], nums[L], nums[R]])
-
                         while L < R and nums[L] == nums[L+1]:
                             L += 1
                         while L < R and nums[R] == nums[R-1]:
                             R -= 1
-                        
+                    
                         L += 1
                         R -= 1
-        
+
         return ans
