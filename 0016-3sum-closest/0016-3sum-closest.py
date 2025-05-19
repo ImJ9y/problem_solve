@@ -6,10 +6,10 @@ class Solution(object):
         :rtype: int
         """
         nums.sort()
-        closest_sum = nums[0] + nums[1] + nums[2]
-        min_distance = abs(target - closest_sum)
+        close_sum = nums[0] + nums[1] + nums[2]
+        min_distance = abs(target - close_sum)
 
-        for i in range(len(nums)-2):
+        for i in range(len(nums)):
             if i > 0 and nums[i] == nums[i-1]:
                 continue
             
@@ -21,7 +21,7 @@ class Solution(object):
                 cur_distance = abs(target - cur_sum)
 
                 if cur_distance < min_distance:
-                    closest_sum = cur_sum
+                    close_sum = cur_sum
                     min_distance = cur_distance
                 
                 if cur_sum == target:
@@ -30,5 +30,5 @@ class Solution(object):
                     L += 1
                 else:
                     R -= 1
-
-        return closest_sum
+        
+        return close_sum
