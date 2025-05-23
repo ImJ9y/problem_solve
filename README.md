@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0016-3sum-closest](https://github.com/ImJ9y/problem_solve/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/ImJ9y/problem_solve/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/ImJ9y/problem_solve/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/ImJ9y/problem_solve/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/ImJ9y/problem_solve/tree/master/0056-merge-intervals) |
@@ -46,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/ImJ9y/problem_solve/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ImJ9y/problem_solve/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ImJ9y/problem_solve/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
@@ -63,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0018-4sum](https://github.com/ImJ9y/problem_solve/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/ImJ9y/problem_solve/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/ImJ9y/problem_solve/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/ImJ9y/problem_solve/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ImJ9y/problem_solve/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/0088-merge-sorted-array) |
@@ -134,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ImJ9y/problem_solve/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/ImJ9y/problem_solve/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ImJ9y/problem_solve/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ImJ9y/problem_solve/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/ImJ9y/problem_solve/tree/master/0155-min-stack) |
@@ -188,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/ImJ9y/problem_solve/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ImJ9y/problem_solve/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/ImJ9y/problem_solve/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
