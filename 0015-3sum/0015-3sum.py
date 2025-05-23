@@ -4,10 +4,11 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
+
         ans = []
         nums.sort()
 
-        for i, num in enumerate(nums):
+        for i in range(len(nums)-1):
             if i > 0 and nums[i] == nums[i-1]:
                 continue
             
@@ -15,23 +16,21 @@ class Solution(object):
             R = len(nums)-1
 
             while L < R:
-                cur = num + nums[L] + nums[R]
-                if cur < 0:
-                    L += 1
-                elif cur > 0 :
+                cur = nums[i] + nums[L] + nums[R]
+
+                if cur > 0:
                     R -= 1
+                elif cur < 0:
+                    L += 1
                 else:
-                    ans.append([num, nums[L], nums[R]])
+                    ans.append([nums[i],nums[L],nums[R]])
 
                     while L < R and nums[L] == nums[L+1]:
                         L += 1
-                    
                     while L < R and nums[R] == nums[R-1]:
                         R -= 1
-
+                    
                     L += 1
                     R -= 1
-            
+        
         return ans
-                    
-                    
