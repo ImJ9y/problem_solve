@@ -4,21 +4,22 @@ class Solution(object):
         :type height: List[int]
         :rtype: int
         """
-        l_wall, r_wall = 0,0
-        max_l, max_r = [0] * len(height), [0] * len(height)
+        L, R = 0, len(height)-1
+        max_l, max_r = 0,0
+        water_trapped = 0
 
-        for i in range(len(height)):
-            j = -i-1
-
-            max_l[i] = l_wall
-            max_r[j] = r_wall
-
-            l_wall = max(l_wall, height[i])
-            r_wall = max(r_wall, height[j])
+        while L < R:
+            if height[L] < height[R]:
+                if max_l < height[L]:
+                    max_l = height[L]
+                else:
+                    water_trapped += max(0,max_l - height[L])
+                L += 1
+            else:
+                if max_r < height[R]:
+                    max_r = height[R]
+                else:
+                    water_trapped += max(0,max_r - height[R])
+                R -= 1
         
-        ans = [0] * len(height)
-
-        for i in range(len(height)):
-            ans[i] += max(0, min(max_l[i], max_r[i]) - height[i])
-            
-        return sum(ans)
+        return water_trapped
