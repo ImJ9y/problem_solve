@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0016-3sum-closest](https://github.com/ImJ9y/problem_solve/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/ImJ9y/problem_solve/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0035-search-insert-position](https://github.com/ImJ9y/problem_solve/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/ImJ9y/problem_solve/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/ImJ9y/problem_solve/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0054-spiral-matrix) |
@@ -175,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/ImJ9y/problem_solve/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ImJ9y/problem_solve/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/ImJ9y/problem_solve/tree/master/0287-find-the-duplicate-number) |
 | [0792-binary-search](https://github.com/ImJ9y/problem_solve/tree/master/0792-binary-search) |
