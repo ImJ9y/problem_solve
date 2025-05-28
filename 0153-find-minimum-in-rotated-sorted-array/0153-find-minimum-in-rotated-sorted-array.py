@@ -4,20 +4,19 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        L = 0
-        R = len(nums)-1
-        ans = nums[0]
-        
+        L, R = 0, len(nums)-1
+        ans = []
+
         while L <= R:
             if nums[L] < nums[R]:
                 ans = min(ans, nums[L])
                 break
-            
-            M = (L+R)/2
+
+            M = (L+R)//2
             ans = min(ans, nums[M])
-            if nums[M] >= nums[L]:
-                L = M + 1
-            else:
+            if nums[M] < nums[R]:
                 R = M - 1
+            else:
+                L = M + 1
         
         return ans
