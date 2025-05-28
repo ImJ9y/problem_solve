@@ -9,11 +9,14 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
+        L, R = 1, n
 
-        while n:
-            if isBadVersion(n):
-                n -= 1
+        while L < R:
+            M = (L+R)//2
+
+            if isBadVersion(M):
+                R = M
             else:
-                return n+1
+                L = M + 1
         
-        return n+1
+        return L
