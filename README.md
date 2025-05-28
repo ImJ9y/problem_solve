@@ -116,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/ImJ9y/problem_solve/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/ImJ9y/problem_solve/tree/master/0048-rotate-image) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ImJ9y/problem_solve/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0367-valid-perfect-square](https://github.com/ImJ9y/problem_solve/tree/master/0367-valid-perfect-square) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Linked List
 |  |
@@ -180,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ImJ9y/problem_solve/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0278-first-bad-version](https://github.com/ImJ9y/problem_solve/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/ImJ9y/problem_solve/tree/master/0287-find-the-duplicate-number) |
+| [0367-valid-perfect-square](https://github.com/ImJ9y/problem_solve/tree/master/0367-valid-perfect-square) |
 | [0792-binary-search](https://github.com/ImJ9y/problem_solve/tree/master/0792-binary-search) |
 ## Bit Manipulation
 |  |
