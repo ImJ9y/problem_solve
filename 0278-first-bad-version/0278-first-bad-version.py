@@ -9,7 +9,7 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        L, R = 1, n
+        L, R = 0, n
 
         while L < R:
             M = (L+R)//2
@@ -19,4 +19,4 @@ class Solution(object):
             else:
                 L = M + 1
         
-        return L
+        return R
