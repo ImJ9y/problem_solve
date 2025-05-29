@@ -5,25 +5,25 @@ class Solution(object):
         :type target: int
         :rtype: int
         """
-        L = 0
-        R = len(nums)-1
-        
-        if nums[0] == target:
-            return 0
-        
-        while L < R:
-            if nums[L] == target:
-                return L
-            elif nums[R] == target:
-                return R
+        L, R = 0, len(nums)-1
+        ans = -1
+
+        while L <= R:
+            M = (L+R)//2
             
-            M = (L+R)/2
+            if nums[M] == target:
+                ans = M
+                break
             
             if nums[M] > target:
-                L += 1
-            elif nums[M] < target:
-                R -= 1
-            elif nums[M] == target:
-                return M
-            
-        return -1
+                if nums[L] <= target < nums[M]:
+                    R = M - 1
+                else:
+                    L = M + 1
+            else:
+                if nums[M] < target <= nums[R]:
+                    L = M + 1
+                else:
+                    R = M - 1
+
+        return ans
