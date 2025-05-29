@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0682-baseball-game](https://github.com/ImJ9y/problem_solve/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/ImJ9y/problem_solve/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/ImJ9y/problem_solve/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/ImJ9y/problem_solve/tree/master/0907-koko-eating-bananas) |
 | [1019-squares-of-a-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/1019-squares-of-a-sorted-array) |
 | [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ImJ9y/problem_solve/tree/master/1802-number-of-students-unable-to-eat-lunch) |
@@ -190,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/ImJ9y/problem_solve/tree/master/0287-find-the-duplicate-number) |
 | [0367-valid-perfect-square](https://github.com/ImJ9y/problem_solve/tree/master/0367-valid-perfect-square) |
 | [0792-binary-search](https://github.com/ImJ9y/problem_solve/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/ImJ9y/problem_solve/tree/master/0907-koko-eating-bananas) |
 ## Bit Manipulation
 |  |
 | ------- |
