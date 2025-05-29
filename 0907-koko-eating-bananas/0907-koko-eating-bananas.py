@@ -8,8 +8,10 @@ class Solution(object):
         L, R = ceil(sum(piles)/h), max(piles)
         res = R
 
-        while L < R:
+        while L <= R:
             M = (L+R)//2
+            if M == 0:
+                break
 
             hours = 0
 
@@ -18,9 +20,9 @@ class Solution(object):
 
             if hours <= h:
                 res = min(res, M)
-                R -= 1
+                R = M - 1
             else:
-                L += 1
+                L = M + 1
 
         return int(res)            
 
