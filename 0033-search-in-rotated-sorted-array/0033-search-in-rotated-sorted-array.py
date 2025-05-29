@@ -7,7 +7,7 @@ class Solution(object):
         """
         L, R = 0, len(nums)-1
         ans = -1
-
+        
         while L <= R:
             M = (L+R)//2
             
@@ -15,7 +15,7 @@ class Solution(object):
                 ans = M
                 break
             
-            if nums[M] > target:
+            if nums[L] <= nums[M]:
                 if nums[L] <= target < nums[M]:
                     R = M - 1
                 else:
@@ -25,5 +25,6 @@ class Solution(object):
                     L = M + 1
                 else:
                     R = M - 1
-
+        
         return ans
+        
