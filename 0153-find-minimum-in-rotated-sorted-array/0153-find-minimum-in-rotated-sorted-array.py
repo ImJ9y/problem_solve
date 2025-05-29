@@ -11,12 +11,13 @@ class Solution(object):
             if nums[L] < nums[R]:
                 ans = min(ans, nums[L])
                 break
-
+            
             M = (L+R)//2
+
             ans = min(ans, nums[M])
-            if nums[M] < nums[R]:
-                R = M - 1
-            else:
+            if nums[M] > nums[R]:
                 L = M + 1
+            else:
+                R = M - 1
         
         return ans
