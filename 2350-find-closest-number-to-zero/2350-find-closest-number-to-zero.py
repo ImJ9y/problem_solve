@@ -4,15 +4,12 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-
         ans = nums[0]
-
-        for i in range(len(nums)):
-            if abs(nums[i]) < abs(ans):
-                ans = nums[i]
-            elif abs(ans) == abs(nums[i]):
-                if ans < nums[i]:
-                    ans = nums[i]
+        for num in nums:
+            if abs(ans) > abs(num):
+                ans = num
+            elif abs(ans) == abs(num):
+                if ans < num:
+                    ans = num
         
         return ans
-
