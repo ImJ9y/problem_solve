@@ -6,6 +6,7 @@ class Solution(object):
         """
         total = 0
         cur = prices[0]
+
         for price in prices:
             if cur < price:
                 total = max(total, price - cur)
@@ -13,4 +14,4 @@ class Solution(object):
                 cur = price
         
         return total
-            
+        
