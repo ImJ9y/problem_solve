@@ -14,7 +14,7 @@ class Solution(object):
             'M':1000
         }
         total = 0
-
+        
         for i in range(len(s)):
             if i < len(s)-1 and symbols[s[i]] < symbols[s[i+1]]:
                 total -= symbols[s[i]]
