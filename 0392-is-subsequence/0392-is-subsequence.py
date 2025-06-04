@@ -5,13 +5,17 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
+
+
         S = len(s)
         T = len(t)
 
-        i = 0
+        j = 0
 
-        for j in range(len(t)):
-            if i < S and s[i] == t[j]:
-                i += 1
+        for i in range(T):
+            if j < S and s[j] == t[i]:
+                j += 1
+            
+            i += 1
         
-        return S == i
+        return S == j
