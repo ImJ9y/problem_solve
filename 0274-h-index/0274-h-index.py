@@ -12,14 +12,8 @@ class Solution(object):
             else:
                 papers[citation] += 1
         
-        
-
         h = len(citations)
         paper = papers[h]
-
-        print(papers)
-        print(h)
-        print(paper)
 
         while paper < h:
             h -= 1
