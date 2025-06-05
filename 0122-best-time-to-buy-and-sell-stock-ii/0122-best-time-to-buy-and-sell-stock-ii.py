@@ -4,13 +4,12 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
+        total = 0
         cur = prices[0]
-        max_profit = 0
 
         for price in prices:
             if cur < price:
-                max_profit += price - cur
-            
+                total += price-cur
             cur = price
-            
-        return max_profit
+        
+        return total
