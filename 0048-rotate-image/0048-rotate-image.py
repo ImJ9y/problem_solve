@@ -10,7 +10,6 @@ class Solution(object):
             for i in range(RIGHT-LEFT):
                 TOP, BOTTOM = LEFT, RIGHT
 
-                #Save TOP LEFT
                 TOPLEFT = matrix[TOP][LEFT+i]
 
                 #BOTTOM LEFT to TOP LEFT
@@ -24,6 +23,12 @@ class Solution(object):
 
                 #TOP LEFT to TOP RIGHT
                 matrix[TOP+i][RIGHT] = TOPLEFT
-            
+
+
             LEFT += 1
             RIGHT -= 1
+
+
+
+
+
