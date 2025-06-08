@@ -14,14 +14,13 @@ class Solution(object):
         length = 0
 
         while cur:
-            length += 1
             cur = cur.next
+            length += 1
         
         if length - n == 0:
             return head.next
         
         cur = head
-
         for i in range(length-n-1):
             cur = cur.next
         
