@@ -4,18 +4,17 @@ class Solution(object):
         :type operations: List[str]
         :rtype: int
         """
+        total = []
 
-        stack = []
-
-        for op in operations:
-            if stack and op in "+DC":
-                if op == "+":
-                    stack.append(stack[-1]+stack[-2])
-                elif op == "D":
-                    stack.append(stack[-1] * 2)
-                elif op == "C":
-                    stack.pop()
+        for operation in operations:
+            if len(total) >= 2 and operation == '+':
+                total.append(total[-1] + total[-2])
+            elif operation == 'D':
+                total.append(total[-1]*2)
+            elif operation == 'C':
+                total.pop()
             else:
-                stack.append(int(op))
-        
-        return sum(stack)
+                total.append(int(operation))
+            
+        return sum(total)
+            
