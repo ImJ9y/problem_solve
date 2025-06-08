@@ -7,7 +7,6 @@ class Solution(object):
     def helper(self, a, b):
         while b:
             a, b = b, a%b
-        
         return a
 
     def insertGreatestCommonDivisors(self, head):
@@ -15,16 +14,15 @@ class Solution(object):
         :type head: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-
         cur = head
 
         while cur and cur.next:
-            greatest_common = self.helper(cur.val, cur.next.val)
-
-            new_node = ListNode(greatest_common)
+            gc = self.helper(cur.val, cur.next.val)
+            new_node = ListNode(gc)
             new_node.next = cur.next
             cur.next = new_node
 
             cur = new_node.next
         
         return head
+        
