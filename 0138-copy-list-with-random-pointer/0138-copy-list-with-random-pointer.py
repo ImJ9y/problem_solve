@@ -13,13 +13,13 @@ class Solution(object):
         :type head: Node
         :rtype: Node
         """
-
         old_copy = {None:None}
         cur = head
 
         while cur:
             copy = Node(cur.val)
             old_copy[cur] = copy
+
             cur = cur.next
         
         cur = head
@@ -31,4 +31,3 @@ class Solution(object):
             cur = cur.next
         
         return old_copy[head]
-        
