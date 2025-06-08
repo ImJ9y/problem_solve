@@ -18,9 +18,8 @@ class Solution(object):
                 tail.next = list1
                 list1 = list1.next
             else:
-                tail.next = list2
+                tail.next= list2
                 list2 = list2.next
-            
             tail = tail.next
         
         while list1:
@@ -32,8 +31,5 @@ class Solution(object):
             tail.next = list2
             list2 = list2.next
             tail = tail.next
-
+        
         return dummy_list.next
-        
-        
-                
