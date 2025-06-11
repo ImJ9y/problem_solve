@@ -4,24 +4,22 @@ class Solution(object):
         :type tokens: List[str]
         :rtype: int
         """
-        stack = []
-
+        ans = []
         for token in tokens:
-
-            if stack and token in "+-*/":
-                b = stack.pop()
-                a = stack.pop()
-
-                if token == '+':
-                    stack.append(a + b)
-                elif token == '-':
-                    stack.append(a - b)
-                elif token == '*':
-                    stack.append(a * b)
-                elif token == '/':
-                    stack.append(int(float(a)/b))
+            if token not in '+-*/':
+                ans.append(int(token))
             else:
-                stack.append(int(token))
-
-        return stack[-1]
+                if len(ans) >= 2:
+                    b = ans.pop()
+                    a = ans.pop()
+                    if token == '+':
+                        ans.append(a+b)
+                    elif token == '-':
+                        ans.append(a-b)
+                    elif token == '*':
+                        ans.append(a*b)
+                    elif b != 0 and token == '/':
+                        ans.append(int(float(a)/b))
+        
+        return ans[-1]
         
