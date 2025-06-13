@@ -4,10 +4,9 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        
         ans = []
-        L, R = 0, len(nums)-1
 
+        L, R = 0, len(nums)-1
         while L <= R:
             if nums[L] * nums[L] < nums[R] * nums[R]:
                 ans.append(nums[R] * nums[R])
