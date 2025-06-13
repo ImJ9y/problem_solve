@@ -11,12 +11,12 @@ class Solution(object):
             start = i
             while stack and stack[-1][1] > height:
                 stk_index, stk_height = stack.pop()
-                max_area = max(stk_height * (i - stk_index), max_area)
+                max_area = max(max_area, stk_height * (i - stk_index))
                 start = stk_index
-            stack.append([start, height])
+            
+            stack.append([start,height])
         
         for i, height in stack:
-            max_area = max(max_area, (height * (len(heights)-i)))
-
-        return max_area
+            max_area = max(max_area, height * (len(heights)-i))
         
+        return max_area
