@@ -9,8 +9,10 @@ class Solution(object):
         L, R = 0, len(height)-1
 
         while L < R:
-            min_height = min(height[L], height[R])
-            max_area = max(max_area, min_height * (R - L))
+            cur_area = min(height[L], height[R]) * (R - L)
+
+            if max_area < cur_area:
+                max_area = cur_area
 
             if height[L] < height[R]:
                 L += 1
