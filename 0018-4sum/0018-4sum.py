@@ -19,21 +19,24 @@ class Solution(object):
                 R = len(nums)-1
 
                 while L < R:
-                    cur = nums[i] + nums[j] + nums[L] + nums[R]
+                    cur_sum = nums[i] + nums[j] + nums[L] + nums[R]
 
-                    if cur < target:
+                    if cur_sum < target:
                         L += 1
-                    elif cur > target:
+                    elif cur_sum > target:
                         R -= 1
                     else:
-                        ans.append([nums[i],nums[j],nums[L],nums[R]])
+                        ans.append([nums[i], nums[j], nums[L], nums[R]])
 
                         while L < R and nums[L] == nums[L+1]:
                             L += 1
-                        while L < R and nums[R]==nums[R-1]:
+                        while L < R and nums[R] == nums[R-1]:
                             R -= 1
                         
                         L += 1
                         R -= 1
-            
+                    
         return ans
+                        
+                        
+                        
