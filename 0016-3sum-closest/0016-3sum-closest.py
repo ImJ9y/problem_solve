@@ -14,26 +14,24 @@ class Solution(object):
             if i > 0 and nums[i] == nums[i-1]:
                 continue
             
-            L = i+1
+            L = i + 1
             R = len(nums)-1
 
             while L < R:
                 cur_sum = nums[i] + nums[L] + nums[R]
-                cur_distance = abs(target - cur_sum)
+                cur_dis = abs(target - cur_sum)
+
 
                 if cur_sum == target:
                     return target
-                elif cur_distance < close_distance:
-                    close_distance = cur_distance
+                elif cur_dis < close_distance:
                     close_sum = cur_sum
+                    close_distance = cur_dis
                 
+
                 if cur_sum < target:
                     L += 1
                 else:
                     R -= 1
-                    
                 
         return close_sum
-
-
-
