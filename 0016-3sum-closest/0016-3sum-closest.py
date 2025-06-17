@@ -9,13 +9,12 @@ class Solution(object):
 
         close_sum = nums[0] + nums[1] + nums[2]
         close_distance = abs(target - close_sum)
-        
 
-        for i in range(len(nums)-1):
+        for i in range(len(nums)):
             if i > 0 and nums[i] == nums[i-1]:
                 continue
             
-            L = i + 1
+            L = i+1
             R = len(nums)-1
 
             while L < R:
@@ -24,13 +23,17 @@ class Solution(object):
 
                 if cur_sum == target:
                     return target
-                elif close_distance > cur_distance:
+                elif cur_distance < close_distance:
                     close_distance = cur_distance
                     close_sum = cur_sum
-
+                
                 if cur_sum < target:
                     L += 1
                 else:
                     R -= 1
+                    
                 
         return close_sum
+
+
+
