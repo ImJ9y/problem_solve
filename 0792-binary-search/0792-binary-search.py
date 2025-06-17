@@ -10,11 +10,11 @@ class Solution(object):
         while L <= R:
             M = (L+R)//2
 
-            if nums[M] == target:
-                return M
-            elif nums[M] < target:
+            if nums[M] < target:
                 L += 1
-            else:
+            elif nums[M] > target:
                 R -= 1
+            else:
+                return M
         
         return -1
