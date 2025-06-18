@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/ImJ9y/problem_solve/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ImJ9y/problem_solve/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/ImJ9y/problem_solve/tree/master/0169-majority-element) |
 | [0228-summary-ranges](https://github.com/ImJ9y/problem_solve/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/ImJ9y/problem_solve/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
@@ -96,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/ImJ9y/problem_solve/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/ImJ9y/problem_solve/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/ImJ9y/problem_solve/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
 | [1019-squares-of-a-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/1019-squares-of-a-sorted-array) |
 ## Prefix Sum
@@ -105,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ImJ9y/problem_solve/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
 ## String
 |  |
@@ -181,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/ImJ9y/problem_solve/tree/master/0013-roman-to-integer) |
 | [0138-copy-list-with-random-pointer](https://github.com/ImJ9y/problem_solve/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ImJ9y/problem_solve/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/ImJ9y/problem_solve/tree/master/0169-majority-element) |
 ## Binary Search
 |  |
 | ------- |
@@ -217,4 +221,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/ImJ9y/problem_solve/tree/master/0278-first-bad-version) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/ImJ9y/problem_solve/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
