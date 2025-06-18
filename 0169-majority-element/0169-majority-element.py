@@ -4,7 +4,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        most_num = {0:0}
+        most_num = {None:None}
+        check = len(nums)//2
 
         for num in nums:
             if num in most_num:
@@ -12,8 +13,10 @@ class Solution(object):
             else:
                 most_num[num] = 1
         
-        max_key = max(most_num, key=most_num.get)
-    
-        return max_key
-            
+        for key, value in most_num.items():
+            if value > check:
+                return key
+
+        
+        
         
