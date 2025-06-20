@@ -4,19 +4,16 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        most_num = {None:None}
+        ans = {None:None}
         check = len(nums)//2
 
         for num in nums:
-            if num in most_num:
-                most_num[num] += 1
+            if num in ans:
+                ans[num] += 1
             else:
-                most_num[num] = 1
-        
-        for key, value in most_num.items():
-            if value > check:
+                ans[num] = 1
+            
+        for key, val in ans.items():
+            if val > check:
                 return key
-
-        
-        
         
