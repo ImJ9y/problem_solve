@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/ImJ9y/problem_solve/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
 | [0287-find-the-duplicate-number](https://github.com/ImJ9y/problem_solve/tree/master/0287-find-the-duplicate-number) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ImJ9y/problem_solve/tree/master/0380-insert-delete-getrandom-o1) |
 | [0682-baseball-game](https://github.com/ImJ9y/problem_solve/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/ImJ9y/problem_solve/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/ImJ9y/problem_solve/tree/master/0792-binary-search) |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/ImJ9y/problem_solve/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/ImJ9y/problem_solve/tree/master/0189-rotate-array) |
 | [0367-valid-perfect-square](https://github.com/ImJ9y/problem_solve/tree/master/0367-valid-perfect-square) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ImJ9y/problem_solve/tree/master/0380-insert-delete-getrandom-o1) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Linked List
 |  |
@@ -167,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0155-min-stack](https://github.com/ImJ9y/problem_solve/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/ImJ9y/problem_solve/tree/master/0225-implement-stack-using-queues) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ImJ9y/problem_solve/tree/master/0380-insert-delete-getrandom-o1) |
 | [0838-design-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0838-design-linked-list) |
 | [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
 ## Doubly-Linked List
@@ -188,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0138-copy-list-with-random-pointer](https://github.com/ImJ9y/problem_solve/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ImJ9y/problem_solve/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/ImJ9y/problem_solve/tree/master/0169-majority-element) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ImJ9y/problem_solve/tree/master/0380-insert-delete-getrandom-o1) |
 ## Binary Search
 |  |
 | ------- |
@@ -228,4 +232,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ImJ9y/problem_solve/tree/master/0169-majority-element) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/ImJ9y/problem_solve/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
