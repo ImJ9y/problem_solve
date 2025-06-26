@@ -21,5 +21,5 @@ class Solution(object):
                 total -= symbols[s[i]]
             else:
                 total += symbols[s[i]]
-        
+            
         return total
