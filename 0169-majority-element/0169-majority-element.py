@@ -4,19 +4,18 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        result = {None:None}
+        store = {}
 
-        for i in range(len(nums)):
-            if nums[i] in result:
-                result[nums[i]] += 1
+        for num in nums:
+            if num in store:
+                store[num] += 1
             else:
-                result[nums[i]] = 1
-        
-        max_num = 0
-        ans = 0
-        for key, val in result.items():
-            if max_num < val:
-                max_num = val
-                ans = key
+                store[num] = 1
 
-        return ans
+        length = len(nums)//2
+
+        for key, val in store.items():
+            if val > length:
+                return key
+        
+        
