@@ -10,14 +10,17 @@ class Solution(object):
         #     temp = nums.pop()
         #     nums.insert(0, temp)
         
-        if k == 0:
-            return
+        # if k == 0:
+        #     return
         
-        dq = collections.deque(nums)
+        # dq = collections.deque(nums)
         
-        for i in range(k):
-            dq.appendleft(dq[-1])
-            dq.pop()
+        # for i in range(k):
+        #     dq.appendleft(dq[-1])
+        #     dq.pop()
         
-        for i in range(len(dq)):
-            nums[i] = dq[i]
+        # for i in range(len(dq)):
+        #     nums[i] = dq[i]
+        k = k % len(nums)
+
+        nums[:] = nums[-k:] + nums[:-k]
