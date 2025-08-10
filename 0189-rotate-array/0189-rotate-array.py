@@ -21,6 +21,7 @@ class Solution(object):
         
         # for i in range(len(dq)):
         #     nums[i] = dq[i]
-        k = k % len(nums)
+
+        k = k % len(nums) #look for the reminder of nums length
 
         nums[:] = nums[-k:] + nums[:-k]
