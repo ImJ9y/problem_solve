@@ -5,9 +5,13 @@ class Solution(object):
         :rtype: bool
         """
         goal = len(nums)-1
-        
+
         for i in range(len(nums)-1,-1,-1):
-            if i + nums[i] >= goal:
+            length = i + nums[i]
+            if length >= goal:
                 goal = i
         
         return goal == 0
+        
+
+        
