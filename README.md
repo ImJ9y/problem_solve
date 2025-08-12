@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/ImJ9y/problem_solve/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/ImJ9y/problem_solve/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/ImJ9y/problem_solve/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/ImJ9y/problem_solve/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ImJ9y/problem_solve/tree/master/0075-sort-colors) |
@@ -61,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/ImJ9y/problem_solve/tree/master/0042-trapping-rain-water) |
+| [0055-jump-game](https://github.com/ImJ9y/problem_solve/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ImJ9y/problem_solve/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ImJ9y/problem_solve/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
@@ -68,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/ImJ9y/problem_solve/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/ImJ9y/problem_solve/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ImJ9y/problem_solve/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/ImJ9y/problem_solve/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/ImJ9y/problem_solve/tree/master/0135-candy) |
