@@ -7,17 +7,16 @@ class Solution(object):
         papers = [0] * (len(citations)+1)
 
         for citation in citations:
-            if citation >= len(citations):
+            if citation >= len(citations)-1:
                 papers[-1] += 1
             else:
                 papers[citation] += 1
         
-        paper = papers[-1]
         h = len(papers)-1
+        paper = papers[-1]
 
         while h > paper:
             h -= 1
             paper += papers[h]
-            
         
         return h
