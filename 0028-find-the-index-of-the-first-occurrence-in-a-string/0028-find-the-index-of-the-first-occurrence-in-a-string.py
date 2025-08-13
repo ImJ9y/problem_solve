@@ -5,26 +5,14 @@ class Solution(object):
         :type needle: str
         :rtype: int
         """
+        L, R = 0, len(needle)
 
-        
-        #hello
-        #ll
-        #he, el, ll, lo, o... (only 4)
-        #searching until right before last character of haystack
-        for i in range(len(haystack)+1 - len(needle)):       
-            #move next character after searching length of needle
-            if haystack[i:i+len(needle)] == needle:
-                return i
+        print(haystack[L:R])
 
-        return -1        
-        
-        
-#         if haystack == needle:
-#             return 0
-        
-#         for i in range(len(haystack)):
-#             if haystack[i:len(needle)+i] == needle:
-#                 return i
-        
-#         return -1
-            
+        while R <= len(haystack)+1:
+            if haystack[L:R] == needle:
+                return L
+            L += 1
+            R += 1
+    
+        return -1
