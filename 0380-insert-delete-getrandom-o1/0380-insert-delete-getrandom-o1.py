@@ -1,5 +1,6 @@
 class RandomizedSet(object):
     import random
+
     def __init__(self):
         self.array = []
         self.valueIndex = {}
@@ -15,34 +16,33 @@ class RandomizedSet(object):
         index = len(self.array)
         self.valueIndex[val] = index
         self.array.append(val)
-
+        
         return True
-
+        
 
     def remove(self, val):
         """
         :type val: int
         :rtype: bool
         """
+
         if val not in self.valueIndex:
             return False
-
+        
         index = self.valueIndex[val]
         self.valueIndex[self.array[-1]] = index
         del self.valueIndex[val]
 
         self.array[index] = self.array[-1]
         self.array.pop()
-
-        return True    
-
-
+        
+        return True
+        
 
     def getRandom(self):
         """
         :rtype: int
         """
-
         return random.choice(self.array)
         
 
