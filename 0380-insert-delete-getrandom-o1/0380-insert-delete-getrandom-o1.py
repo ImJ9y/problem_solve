@@ -1,40 +1,45 @@
 class RandomizedSet(object):
-    import random
 
     def __init__(self):
         self.array = []
-        
+        self.valuesIndex = {} #value : index -> we need O(1) solution
 
     def insert(self, val):
         """
         :type val: int
         :rtype: bool
         """
-        if val in self.array:
+        if val in self.valuesIndex:
             return False
         
+        self.valuesIndex[val] = len(self.array)
         self.array.append(val)
-        return True
-        
 
+        return True
+
+    
     def remove(self, val):
         """
         :type val: int
         :rtype: bool
         """
-        if val in self.array:
-            self.array.remove(val)
-            return True
+        if val not in self.valuesIndex:
+            return False
         
-        return False
+        index = self.valuesIndex[val]
 
+        self.valuesIndex[self.array[-1]] = index
+        del self.valuesIndex[val]
+        self.array[index] = self.array[-1]
+        self.array.pop()
+
+        return True
 
     def getRandom(self):
         """
         :rtype: int
         """
         return random.choice(self.array)
-        
 
 
 # Your RandomizedSet object will be instantiated and called as such:
