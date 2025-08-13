@@ -10,8 +10,7 @@ class Solution(object):
             length = i + nums[i]
             if length >= goal:
                 goal = i
-        
-        return goal == 0
-        
+
+        return goal == 0 
 
         
