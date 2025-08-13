@@ -11,7 +11,6 @@ class Solution(object):
             farthest = 0
             for i in range(L, R+1):
                 farthest = max(farthest, i + nums[i])
-                print(farthest)
             
             L = R + 1
             R = farthest
