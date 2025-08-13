@@ -7,8 +7,6 @@ class Solution(object):
         """
         L, R = 0, len(needle)
 
-        print(haystack[L:R])
-
         while R <= len(haystack)+1:
             if haystack[L:R] == needle:
                 return L
