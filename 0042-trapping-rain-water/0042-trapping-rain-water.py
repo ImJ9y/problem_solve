@@ -8,9 +8,9 @@ class Solution(object):
         max_l, max_r = 0,0
         trapped_water = 0
 
+
         while L < R:
             if height[L] < height[R]:
-                
                 if max_l < height[L]:
                     max_l = height[L]
                 else:
@@ -22,5 +22,6 @@ class Solution(object):
                 else:
                     trapped_water += max(0, max_r - height[R])
                 R -= 1
-            
+
+        
         return trapped_water
