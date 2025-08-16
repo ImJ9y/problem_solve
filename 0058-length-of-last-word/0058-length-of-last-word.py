@@ -17,3 +17,5 @@ class Solution(object):
             L -= 1
         
         return R - L
+
+        #return len(s.split()[-1])
