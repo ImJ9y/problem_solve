@@ -128,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/ImJ9y/problem_solve/tree/master/0006-zigzag-conversion) |
+| [0012-integer-to-roman](https://github.com/ImJ9y/problem_solve/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/ImJ9y/problem_solve/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/ImJ9y/problem_solve/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/ImJ9y/problem_solve/tree/master/0020-valid-parentheses) |
@@ -140,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/ImJ9y/problem_solve/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/ImJ9y/problem_solve/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/ImJ9y/problem_solve/tree/master/0048-rotate-image) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ImJ9y/problem_solve/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -201,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/ImJ9y/problem_solve/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/ImJ9y/problem_solve/tree/master/0013-roman-to-integer) |
 | [0138-copy-list-with-random-pointer](https://github.com/ImJ9y/problem_solve/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ImJ9y/problem_solve/tree/master/0141-linked-list-cycle) |
