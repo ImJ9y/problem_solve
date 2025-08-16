@@ -5,14 +5,15 @@ class Solution(object):
         :rtype: int
         """
         
-        if len(s) <= 1:
-            return 1
+        R = len(s)-1
         
-        x = s.split(' ')
-        wordList = []
+        while s[R] == " ":
+            R -= 1
         
-        for word in x:
-            if word != '':
-                wordList.append(word)
+
+        L = R
+
+        while L >= 0 and s[L] != " ":
+            L -= 1
         
-        return len(wordList[len(wordList)-1])
+        return R - L
