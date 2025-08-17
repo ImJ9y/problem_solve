@@ -4,18 +4,16 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        store = {}
+        num_list = {None:None}
+        n = len(nums)/2
 
         for num in nums:
-            if num in store:
-                store[num] += 1
+            if num in num_list:
+                num_list[num] += 1
             else:
-                store[num] = 1
+                num_list[num] = 1
 
-        length = len(nums)//2
-
-        for key, val in store.items():
-            if val > length:
+        for key, count in num_list.items():
+            if count > n:
                 return key
-        
         
