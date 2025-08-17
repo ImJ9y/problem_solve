@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        num_list = {None:None}
+        num_list = {}
         n = len(nums)/2
 
         for num in nums:
