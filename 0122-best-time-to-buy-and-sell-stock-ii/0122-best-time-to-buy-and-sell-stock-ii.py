@@ -12,6 +12,6 @@ class Solution(object):
                 total += price - cur
             
             cur = price
-                
         
         return total
+        
