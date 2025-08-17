@@ -7,9 +7,9 @@ class Solution(object):
         """
         k = 0
 
-        for num in nums:
-            if num != val:
-                nums[k] = num
+        for i in range(len(nums)):
+            if nums[i] != val:
+                nums[k] = nums[i]
                 k += 1
         
         return k
