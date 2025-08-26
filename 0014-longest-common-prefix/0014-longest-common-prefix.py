@@ -4,10 +4,10 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
-        prefix = strs[0]
+        prefix = strs[-1]
 
         for s in strs:
             while s.find(prefix):
                 prefix = prefix[:-1]
-        
+    
         return prefix
