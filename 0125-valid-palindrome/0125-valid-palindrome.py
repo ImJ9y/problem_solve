@@ -10,4 +10,4 @@ class Solution(object):
             if c.isalnum():
                 new_s += c.lower()
         
-        return new_s[::-1] == new_s
+        return new_s[::-1] == new_s[:]
