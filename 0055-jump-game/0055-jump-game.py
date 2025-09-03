@@ -8,9 +8,8 @@ class Solution(object):
 
         for i in range(len(nums)-1,-1,-1):
             length = i + nums[i]
+
             if length >= goal:
                 goal = i
-
-        return goal == 0 
-
         
+        return goal == 0
