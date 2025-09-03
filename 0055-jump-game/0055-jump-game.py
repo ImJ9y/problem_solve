@@ -7,9 +7,9 @@ class Solution(object):
         goal = len(nums)-1
 
         for i in range(len(nums)-1,-1,-1):
-            length = i + nums[i]
+            farthest = i + nums[i]
 
-            if length >= goal:
+            if farthest >= goal:
                 goal = i
         
         return goal == 0
