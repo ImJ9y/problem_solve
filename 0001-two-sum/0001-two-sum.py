@@ -5,10 +5,12 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        seen = {}
+        result = {}
+
         for i in range(len(nums)):
-            diff = target - nums[i]
-            if diff in seen:
-                return [seen[diff], i]
+            cur = target - nums[i]
+            if cur in result:
+                return result[cur], i
             else:
-                seen[nums[i]] = i
+                result[nums[i]] = i
+        
