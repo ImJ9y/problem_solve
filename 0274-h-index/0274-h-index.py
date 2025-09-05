@@ -12,7 +12,7 @@ class Solution(object):
             else:
                 papers[citation] += 1
         
-        h = len(citations)-1
+        h = len(papers)-1
         paper = papers[-1]
 
         while h > paper:
