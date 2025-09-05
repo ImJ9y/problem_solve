@@ -5,15 +5,15 @@ class Solution(object):
         :rtype: int
         """
         L, R = 0, 0
-        cur = 0
+        farthest = 0
         result = 0
 
         while R < len(nums)-1:
             for i in range(L, R+1):
-                cur = max(cur, i + nums[i])
+                farthest = max(farthest, i + nums[i])
             
             L = R + 1
-            R = cur
+            R = farthest
             result += 1
         
         return result
