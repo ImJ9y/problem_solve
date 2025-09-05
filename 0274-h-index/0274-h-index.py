@@ -4,19 +4,28 @@ class Solution(object):
         :type citations: List[int]
         :rtype: int
         """
-        papers = [0] * (len(citations)+1)
+        
+        if len(citations)==1:
+            return 1
+
+        pages = [0] * (len(citations)+1)
 
         for citation in citations:
             if citation >= len(citations):
-                papers[-1] += 1
+                pages[-1] += 1
             else:
-                papers[citation] += 1
+                pages[citation] += 1
         
-        h = len(papers)-1
-        paper = papers[-1]
+        print(pages)
 
-        while h > paper:
+        page = pages[-1]
+        h = len(citations)-1
+
+        print(page)
+        print(h)
+
+        while h > page:
             h -= 1
-            paper += papers[h]
+            page += pages[h]
         
         return h
