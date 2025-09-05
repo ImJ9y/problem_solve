@@ -5,12 +5,12 @@ class Solution(object):
         :rtype: bool
         """
         goal = len(nums)-1
-        farthest = 0
 
         for i in range(len(nums)-1,-1,-1):
-            farthest = i + nums[i]
+            cur = i + nums[i]
 
-            if farthest >= goal:
+            if cur >= goal:
                 goal = i
         
         return goal == 0
+
