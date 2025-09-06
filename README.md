@@ -142,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0009-palindrome-number](https://github.com/ImJ9y/problem_solve/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/ImJ9y/problem_solve/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/ImJ9y/problem_solve/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/ImJ9y/problem_solve/tree/master/0048-rotate-image) |
