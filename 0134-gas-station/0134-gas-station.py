@@ -5,9 +5,9 @@ class Solution(object):
         :type cost: List[int]
         :rtype: int
         """
-
         if sum(gas) < sum(cost):
             return -1
+
 
         cur = 0
         start = 0
