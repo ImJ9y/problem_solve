@@ -7,16 +7,16 @@ class Solution(object):
         """
         if sum(gas) < sum(cost):
             return -1
-
-
-        cur = 0
+        
         start = 0
 
         for i in range(len(gas)):
-            cur += gas[i] - cost[i]
+            cur = gas[i] - cost[i]
 
             if cur < 0:
                 cur = 0
-                start = i + 1
+                start = 0
+            else:
+                start += 1
         
         return start
