@@ -9,9 +9,10 @@ class Solution(object):
             return -1
         
         start = 0
+        cur = 0
 
         for i in range(len(gas)):
-            cur = gas[i] - cost[i]
+            cur += gas[i] - cost[i]
 
             if cur < 0:
                 cur = 0
