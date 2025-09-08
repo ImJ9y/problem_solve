@@ -15,7 +15,6 @@ class RandomizedSet(object):
         length = len(self.array)
         self.valueIndex[val] = length
         self.array.append(val)
-
         return True
         
 
@@ -35,13 +34,13 @@ class RandomizedSet(object):
         self.array.pop()
 
         return True
+        
 
     def getRandom(self):
         """
         :rtype: int
         """
         return random.choice(self.array)
-        
 
 
 # Your RandomizedSet object will be instantiated and called as such:
