@@ -15,8 +15,6 @@ class Solution(object):
 
             if cur < 0:
                 cur = 0
-                start = 0
-            else:
-                start += 1
+                start = i + 1
         
         return start
