@@ -25,14 +25,14 @@ class RandomizedSet(object):
         """
         if val not in self.valueIndex:
             return False
-        
+
         index = self.valueIndex[val]
         self.valueIndex[self.array[-1]] = index
+
         del self.valueIndex[val]
 
         self.array[index] = self.array[-1]
         self.array.pop()
-
         return True
         
 
@@ -41,6 +41,7 @@ class RandomizedSet(object):
         :rtype: int
         """
         return random.choice(self.array)
+        
 
 
 # Your RandomizedSet object will be instantiated and called as such:
