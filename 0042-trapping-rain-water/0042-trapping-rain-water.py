@@ -4,10 +4,11 @@ class Solution(object):
         :type height: List[int]
         :rtype: int
         """
-        L, R = 0, len(height)-1
-        max_l, max_r = 0,0
-        trapped_water = 0
 
+        max_l = 0
+        max_r = 0
+        L, R = 0, len(height)-1
+        trapped_water = 0
 
         while L < R:
             if height[L] < height[R]:
@@ -22,6 +23,8 @@ class Solution(object):
                 else:
                     trapped_water += max(0, max_r - height[R])
                 R -= 1
-
         
         return trapped_water
+
+
+        
