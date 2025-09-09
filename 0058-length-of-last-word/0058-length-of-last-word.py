@@ -4,18 +4,14 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+        while s[-1] == " ":
+            s = s[:-1]
         
-        R = len(s)-1
+        count = 0
+        for i in range(len(s)-1,-1,-1):
+            if s[i] == ' ':
+                return count
+            
+            count += 1
         
-        while s[R] == " ":
-            R -= 1
-        
-
-        L = R
-
-        while L >= 0 and s[L] != " ":
-            L -= 1
-        
-        return R - L
-
-        #return len(s.split()[-1])
+        return count
