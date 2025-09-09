@@ -4,9 +4,7 @@ class Solution(object):
         :type height: List[int]
         :rtype: int
         """
-
-        max_l = 0
-        max_r = 0
+        max_l, max_r = 0, 0
         L, R = 0, len(height)-1
         trapped_water = 0
 
@@ -25,6 +23,3 @@ class Solution(object):
                 R -= 1
         
         return trapped_water
-
-
-        
