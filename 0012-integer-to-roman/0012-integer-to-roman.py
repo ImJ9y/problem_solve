@@ -9,25 +9,12 @@ class Solution(object):
             (100, 'C'), (90, 'XC'), (50, 'L'), (40, 'XL'), (10, 'X'),
             (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')
         ]
-        
-        result = ""
-        #result = []
 
-        for val, symbol in value_symbols:
-            while num >= val:
-                result += symbol
-                num -= val
-        
-        return result
+        ans = ""
 
-            # count = num // val
-            # result.append(symbol * count)
-            # num -= val * count
-        #return "".join(result)
-        
+        for value, symbol in value_symbols:
+            while num >= value:
+                ans += symbol
+                num -= value
 
-
-
-        
-        
-
+        return ans
