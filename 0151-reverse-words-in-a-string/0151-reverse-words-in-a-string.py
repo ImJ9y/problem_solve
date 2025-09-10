@@ -4,12 +4,25 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-        # array = []
+        
+        while s[0] == ' ':
+            s = s[1:]
 
-        # while s[-1] == ' ':
-        #     s = s[:-1]
+        array = []
 
-        new_s = s.split()
+        start = 0
+        i = 0
 
-        return " ".join(new_s[::-1])
+        while i < len(s):
+            while i < len(s) and s[i] != ' ':
+                i += 1
+            
+            if s[start:i] != '':
+                array.append(s[start:i])
+            
+            start = i+1
+            i += 1
+
+        return " ".join(array[::-1])
+
         
