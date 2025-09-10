@@ -5,24 +5,26 @@ class Solution(object):
         :rtype: str
         """
         
-        while s[0] == ' ':
-            s = s[1:]
+        # while s[0] == ' ':
+        #     s = s[1:]
 
-        array = []
+        # array = []
 
-        start = 0
-        i = 0
+        # start = 0
+        # i = 0
 
-        while i < len(s):
-            while i < len(s) and s[i] != ' ':
-                i += 1
+        # while i < len(s):
+        #     while i < len(s) and s[i] != ' ':
+        #         i += 1
             
-            if s[start:i] != '':
-                array.append(s[start:i])
+        #     if s[start:i] != '':
+        #         array.append(s[start:i])
             
-            start = i+1
-            i += 1
+        #     start = i+1
+        #     i += 1
+    
+        new_s = s.split()
 
-        return " ".join(array[::-1])
+        return " ".join(new_s[::-1])
 
         
