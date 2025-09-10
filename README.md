@@ -96,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/ImJ9y/problem_solve/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/ImJ9y/problem_solve/tree/master/0141-linked-list-cycle) |
+| [0151-reverse-words-in-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ImJ9y/problem_solve/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/ImJ9y/problem_solve/tree/master/0189-rotate-array) |
 | [0287-find-the-duplicate-number](https://github.com/ImJ9y/problem_solve/tree/master/0287-find-the-duplicate-number) |
@@ -136,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/ImJ9y/problem_solve/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/ImJ9y/problem_solve/tree/master/0125-valid-palindrome) |
+| [0151-reverse-words-in-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/ImJ9y/problem_solve/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/ImJ9y/problem_solve/tree/master/1894-merge-strings-alternately) |
