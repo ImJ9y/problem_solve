@@ -5,24 +5,25 @@ class Solution(object):
         :type numRows: int
         :rtype: str
         """
-        
         if numRows == 1:
             return s
         
+        array = [''] * numRows
         row = 0
-        ans = [""] * numRows
-        i = 1
+        i = 0
+
         for c in s:
-            ans[row] += c
-            if row == numRows-1:
-                i = -1
+            row += i
+            array[row] += c
+
             if row == 0:
                 i = 1
-            
-            row += i
+            if row == numRows-1:
+                i = -1
         
-        res = ""
-        for new_s in ans:
-            res += "".join(new_s)
-    
-        return res
+        new_s = ""
+
+        for s in array:
+            new_s += "".join(s)
+        
+        return new_s
