@@ -13,13 +13,14 @@ class Solution(object):
         i = 0
 
         for c in s:
-            row += i
             array[row] += c
 
             if row == 0:
                 i = 1
             if row == numRows-1:
                 i = -1
+
+            row += i
         
         new_s = ""
 
