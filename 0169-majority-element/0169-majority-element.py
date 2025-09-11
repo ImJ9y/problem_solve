@@ -4,16 +4,17 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        num_list = {}
-        n = len(nums)/2
+        num_array = {}
 
         for num in nums:
-            if num in num_list:
-                num_list[num] += 1
+            if num in num_array:
+                num_array[num] += 1
             else:
-                num_list[num] = 1
+                num_array[num] = 1
 
-        for key, count in num_list.items():
-            if count > n:
+        length = len(nums)/2
+
+        for key, val in num_array.items():
+            if val > length:
                 return key
         
