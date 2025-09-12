@@ -14,8 +14,8 @@ class Solution(object):
             else:
                 count = 1
             
-            if count <= 2:
+            if count < 3:
                 nums[k] = nums[i]
                 k += 1
-    
+
         return k
