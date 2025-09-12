@@ -6,14 +6,14 @@ class Solution(object):
         :rtype: None Do not return anything, modify nums in-place instead.
         """
 
-        dp = collections.deque(nums)
+        # dp = collections.deque(nums)
 
-        for i in range(k):
-            temp = dp.pop()
-            dp.appendleft(temp)
+        # for i in range(k):
+        #     temp = dp.pop()
+        #     dp.appendleft(temp)
 
-        for i in range(len(nums)):
-            nums[i] = dp[i]
+        # for i in range(len(nums)):
+        #     nums[i] = dp[i]
 
-        # k = k%len(nums)
-        # nums[:] = nums[-k:] + nums[:-k]
+        k = k%len(nums)
+        nums[:] = nums[-k:] + nums[:-k]
