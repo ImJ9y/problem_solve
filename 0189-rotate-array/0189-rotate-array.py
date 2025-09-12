@@ -7,7 +7,6 @@ class Solution(object):
         """
 
         dp = collections.deque(nums)
-        new_array = []
 
         for i in range(k):
             temp = dp.pop()
