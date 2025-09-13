@@ -5,12 +5,12 @@ class Solution(object):
         :rtype: int
         """
         cur = prices[0]
-        total = 0
+        max_price = 0
 
         for price in prices:
             if cur < price:
-                total = max(total, price - cur)
+                max_price = max(max_price, price - cur)
             else:
                 cur = price
-
-        return total
+        
+        return max_price
