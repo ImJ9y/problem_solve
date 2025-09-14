@@ -10,4 +10,13 @@ class Solution(object):
             if c.isalnum():
                 new_s += c.lower()
         
-        return new_s == new_s[::-1]
+        L, R = 0, len(new_s)-1
+
+        while L < R:
+            if new_s[L] == new_s[R]:
+                L += 1
+                R -= 1
+            else:
+                return False
+        
+        return True
