@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/ImJ9y/problem_solve/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/ImJ9y/problem_solve/tree/master/0056-merge-intervals) |
+| [0068-text-justification](https://github.com/ImJ9y/problem_solve/tree/master/0068-text-justification) |
 | [0074-search-a-2d-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ImJ9y/problem_solve/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ImJ9y/problem_solve/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -59,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0054-spiral-matrix) |
+| [0068-text-justification](https://github.com/ImJ9y/problem_solve/tree/master/0068-text-justification) |
 | [0682-baseball-game](https://github.com/ImJ9y/problem_solve/tree/master/0682-baseball-game) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ImJ9y/problem_solve/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 ## Dynamic Programming
@@ -136,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/ImJ9y/problem_solve/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/ImJ9y/problem_solve/tree/master/0058-length-of-last-word) |
+| [0068-text-justification](https://github.com/ImJ9y/problem_solve/tree/master/0068-text-justification) |
 | [0125-valid-palindrome](https://github.com/ImJ9y/problem_solve/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/ImJ9y/problem_solve/tree/master/0344-reverse-string) |
