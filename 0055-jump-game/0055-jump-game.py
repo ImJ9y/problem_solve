@@ -13,3 +13,4 @@ class Solution(object):
                 goal = i
         
         return goal == 0
+
