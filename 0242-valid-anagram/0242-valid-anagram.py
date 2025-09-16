@@ -5,41 +5,20 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        if len(s) != len(t):
-             return False
-        
-        countS, countT = {}, {}
-        
+        s_hash_map = {}
+        t_hash_map = {}
+
         for i in range(len(s)):
-            countS[s[i]] = 1 + countS.get(s[i],0) #if hashmap doesn't have the value the default value = 0
-            countT[t[i]] = 1 + countT.get(t[i],0)
+            if s[i] not in s_hash_map:
+                s_hash_map[s[i]] = 1
+            else:
+                s_hash_map[s[i]] += 1
         
-        for c in countS:
-            #order can be different so we need to use .get() for countT
-            if countS[c] != countT.get(c, 0):
-                return False
+        for j in range(len(t)):
+            if t[j] not in t_hash_map:
+                t_hash_map[t[j]] = 1
+            else:
+                t_hash_map[t[j]] += 1
         
-        return True
+        return s_hash_map == t_hash_map
 
-        #or
-    
-#       return sorted(s) == sorted(t)
-        
-    
-        #or
-    
-    
-#       temp = []
-#       for c in s:
-#           temp.append(c)
-        
-#       for c2 in t:
-#           if c2 in temp:
-#               temp.remove(c2)
-#           else:
-#               temp.append(c2)
-        
-#       return not temp
-        
-
-                
