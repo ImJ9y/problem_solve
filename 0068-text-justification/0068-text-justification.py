@@ -18,6 +18,7 @@ class Solution(object):
                 i += 1
             else:
                 #reset our process
+                print(cur_line)
                 spaces = maxWidth - cur_len + len(cur_line) #total spaces left
 
                 added = 0
@@ -34,11 +35,12 @@ class Solution(object):
                 cur_line, cur_len = [], 0
         
 
-        for word in range(len(cur_line)-1):
-            cur_line[word] += " "
-        
-        cur_line[-1] += " " * (maxWidth - cur_len + 1)
-        output.append("".join(cur_line))
+        #Handling last line
+        last_line = " ".join(cur_line)
+        trail_space = maxWidth - len(last_line)
+        last_line += " " * trail_space
+
+        output.append(last_line)
 
         return output
 
