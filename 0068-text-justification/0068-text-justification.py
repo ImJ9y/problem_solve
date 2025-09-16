@@ -18,7 +18,6 @@ class Solution(object):
                 i += 1
             else:
                 #reset our process
-                print(cur_line)
                 spaces = maxWidth - cur_len + len(cur_line) #total spaces left
 
                 added = 0
