@@ -6,14 +6,15 @@ class Solution(object):
         """
         L, R = 0, 0
         farthest = 0
-        result = 0
+        count = 0
 
         while R < len(nums)-1:
             for i in range(L, R+1):
-                farthest = max(farthest, i + nums[i])
-            
+                farthest = max(nums[i] + i, farthest)
+
             L = R+1
             R = farthest
-            result += 1
+            count += 1
         
-        return result
+        return count
+
