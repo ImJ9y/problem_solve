@@ -10,11 +10,10 @@ class Solution(object):
 
         while R < len(nums)-1:
             for i in range(L, R+1):
-                farthest = max(nums[i] + i, farthest)
-
+                farthest = max(farthest, nums[i] + i)
+            
             L = R+1
             R = farthest
             count += 1
         
         return count
-
