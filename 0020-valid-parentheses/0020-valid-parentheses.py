@@ -4,18 +4,16 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        closed_brackets = {')':'(','}':'{',']':'['}
-        res = []
+        closed_symbol = {')':'(', '}':'{',']':'['}
+        result = []
 
-
-        for c in s:
-            if c in closed_brackets:
-                if res and res[-1] == closed_brackets[c]:
-                    res.pop()
+        for symbol in s:
+            if symbol in closed_symbol:
+                if result and closed_symbol[symbol] == result[-1]:
+                    result.pop()
                 else:
-                    res.append(c)
+                    return False
             else:
-                res.append(c)
+                result.append(symbol)
         
-        return not res
-        
+        return not result
