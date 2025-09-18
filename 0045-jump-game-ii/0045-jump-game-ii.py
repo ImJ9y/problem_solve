@@ -8,11 +8,12 @@ class Solution(object):
         farthest = 0
         count = 0
 
+
         while R < len(nums)-1:
-            for i in range(L, R+1):
+            for i in range(L, R + 1):
                 farthest = max(farthest, nums[i] + i)
             
-            L = R+1
+            L = R + 1
             R = farthest
             count += 1
         
