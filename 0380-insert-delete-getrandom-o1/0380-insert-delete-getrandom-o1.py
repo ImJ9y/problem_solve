@@ -2,18 +2,19 @@ class RandomizedSet(object):
 
     def __init__(self):
         self.array = []
-        self.valueIndex = {}
+        self.indexVal = {}
+        
 
     def insert(self, val):
         """
         :type val: int
         :rtype: bool
         """
-        if val in self.valueIndex:
+        if val in self.indexVal:
             return False
         
         length = len(self.array)
-        self.valueIndex[val] = length
+        self.indexVal[val] = length
         self.array.append(val)
         return True
         
@@ -23,16 +24,16 @@ class RandomizedSet(object):
         :type val: int
         :rtype: bool
         """
-        if val not in self.valueIndex:
+        if val not in self.indexVal:
             return False
-
-        index = self.valueIndex[val]
-        self.valueIndex[self.array[-1]] = index
-
-        del self.valueIndex[val]
+        
+        index = self.indexVal[val]
+        self.indexVal[self.array[-1]] = index
+        del self.indexVal[val]
 
         self.array[index] = self.array[-1]
         self.array.pop()
+
         return True
         
 
