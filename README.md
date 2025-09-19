@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ImJ9y/problem_solve/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/ImJ9y/problem_solve/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/ImJ9y/problem_solve/tree/master/0189-rotate-array) |
+| [0209-minimum-size-subarray-sum](https://github.com/ImJ9y/problem_solve/tree/master/0209-minimum-size-subarray-sum) |
 | [0228-summary-ranges](https://github.com/ImJ9y/problem_solve/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/ImJ9y/problem_solve/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
@@ -123,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/ImJ9y/problem_solve/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/ImJ9y/problem_solve/tree/master/0238-product-of-array-except-self) |
 ## Counting Sort
 |  |
@@ -228,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ImJ9y/problem_solve/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/ImJ9y/problem_solve/tree/master/0209-minimum-size-subarray-sum) |
 | [0278-first-bad-version](https://github.com/ImJ9y/problem_solve/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/ImJ9y/problem_solve/tree/master/0287-find-the-duplicate-number) |
 | [0367-valid-perfect-square](https://github.com/ImJ9y/problem_solve/tree/master/0367-valid-perfect-square) |
@@ -268,4 +271,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Sliding Window
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/ImJ9y/problem_solve/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
