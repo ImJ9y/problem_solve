@@ -14,4 +14,4 @@ class Solution(object):
             if j < S and s[j] == t[i]:
                 j += 1
         
-        return S == j
+        return j == S
