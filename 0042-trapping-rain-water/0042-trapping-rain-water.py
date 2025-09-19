@@ -10,16 +10,16 @@ class Solution(object):
 
         while L < R:
             if height[L] < height[R]:
-                if max_l < height[L]:
+                if max_l <= height[L]:
                     max_l = height[L]
                 else:
-                    trapped_water += max(0, max_l - height[L])
+                    trapped_water += min(max_l, max_l - height[L])
                 L += 1
             else:
-                if max_r < height[R]:
+                if max_r <= height[R]:
                     max_r = height[R]
                 else:
-                    trapped_water += max(0, max_r - height[R])
+                    trapped_water += min(max_r, max_r - height[R])
                 R -= 1
         
         return trapped_water
