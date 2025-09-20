@@ -11,10 +11,10 @@ class Solution(object):
         for R in range(len(s)):
             while s[R] in charSet:
                 charSet.remove(s[L])
-                len_sub = max(len_sub, R - L)
                 L += 1
 
             charSet.add(s[R])
+            len_sub = max(len_sub, R - L + 1)
     
         return len_sub
 
