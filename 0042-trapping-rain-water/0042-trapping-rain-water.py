@@ -14,12 +14,14 @@ class Solution(object):
                     max_l = height[L]
                 else:
                     trapped_water += max_l - height[L]
+                
                 L += 1
             else:
                 if max_r < height[R]:
                     max_r = height[R]
                 else:
                     trapped_water += max_r - height[R]
+                
                 R -= 1
-            
+        
         return trapped_water
