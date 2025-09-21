@@ -141,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0014-longest-common-prefix](https://github.com/ImJ9y/problem_solve/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/ImJ9y/problem_solve/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/ImJ9y/problem_solve/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0058-length-of-last-word](https://github.com/ImJ9y/problem_solve/tree/master/0058-length-of-last-word) |
 | [0068-text-justification](https://github.com/ImJ9y/problem_solve/tree/master/0068-text-justification) |
 | [0125-valid-palindrome](https://github.com/ImJ9y/problem_solve/tree/master/0125-valid-palindrome) |
@@ -219,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/ImJ9y/problem_solve/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/ImJ9y/problem_solve/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/ImJ9y/problem_solve/tree/master/0013-roman-to-integer) |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/ImJ9y/problem_solve/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0138-copy-list-with-random-pointer](https://github.com/ImJ9y/problem_solve/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ImJ9y/problem_solve/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/ImJ9y/problem_solve/tree/master/0169-majority-element) |
@@ -277,5 +279,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ImJ9y/problem_solve/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0030-substring-with-concatenation-of-all-words](https://github.com/ImJ9y/problem_solve/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0209-minimum-size-subarray-sum](https://github.com/ImJ9y/problem_solve/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
