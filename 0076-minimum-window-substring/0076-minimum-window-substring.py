@@ -7,9 +7,10 @@ class Solution(object):
         """
         if t == "":
             return ""
-        
+
         countT, window = {}, {}
 
+        #Default table - Need
         for c in t:
             countT[c] = 1 + countT.get(c, 0)
         
@@ -18,25 +19,28 @@ class Solution(object):
         L = 0
 
         for R in range(len(s)):
-            c = s[R]
-            window[c] = 1 + window.get(c, 0)
+            cur_c = s[R]
+            window[cur_c] = 1 + window.get(cur_c, 0)
 
-            if c in countT and window[c] == countT[c]:
+            if cur_c in countT and window[cur_c] == countT[cur_c]:
                 have += 1
             
-            while have == need:
-                #update our result
-                if (R-L+1) < res_len:
-                    result =[L, R]
+            while need == have:
+                #update result
+                if (R - L + 1) < res_len:
+                    result = [L, R]
                     res_len = (R - L + 1)
                 
-                #pop from the left of our window
+                #pop left window
                 window[s[L]] -= 1
-
+                
                 if s[L] in countT and window[s[L]] < countT[s[L]]:
                     have -= 1
                 
                 L += 1
-        
+            
         L, R = result
-        return s[L:R+1] if res_len != float('inf') else ""                    
+        return s[L:R+1] if res_len != float('inf') else ""
+        
+
+        
