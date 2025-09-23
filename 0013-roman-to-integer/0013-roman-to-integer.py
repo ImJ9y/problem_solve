@@ -4,22 +4,22 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        value_symbols = {
-            'M':1000,
-            'D':500,
-            'C':100,
-            'L':50,
-            'X':10,
-            'V':5,
-            'I':1
+        symbols = {
+            'I': 1,
+            'V': 5,
+            'X': 10,
+            'L': 50,
+            'C': 100,
+            'D': 500,
+            'M': 1000
         }
 
-        ans = 0
+        total = 0
 
-        for i in range(1, len(s)+1):
-            if i < len(s) and value_symbols[s[i-1]] < value_symbols[s[i]]:
-                ans -= value_symbols[s[i-1]]
+        for i in range(len(s)):
+            if i < len(s)-1 and symbols[s[i]] < symbols[s[i+1]]:
+                total -= symbols[s[i]]
             else:
-                ans += value_symbols[s[i-1]]
+                total += symbols[s[i]]
         
-        return ans
+        return total
