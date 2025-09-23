@@ -5,16 +5,17 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        
-        L = 0
-        output = float('inf')
+
         cur = 0
+        min_len = float('inf')
+        L = 0
 
         for R in range(len(nums)):
             cur += nums[R]
+
             while cur >= target:
-                output = min(output, R - L + 1)
+                min_len = min(min_len, R - L + 1)
                 cur -= nums[L]
                 L += 1
-        
-        return output if output < float('inf') else 0
+            
+        return min_len if min_len != float('inf') else 0
