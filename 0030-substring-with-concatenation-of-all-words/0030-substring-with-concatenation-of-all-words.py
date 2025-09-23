@@ -5,37 +5,36 @@ class Solution(object):
         :type words: List[str]
         :rtype: List[int]
         """
-        if not s or not words:
-            return []
+        if not s or not words: return []
 
-        len_word = len(words[0])
-        len_windowSize = len_word * len(words)
-        
         word_freq = {}
+
         for word in words:
             word_freq[word] = 1 + word_freq.get(word, 0)
 
-        output = []
+        len_word = len(words[0])
+        len_window = len(words) * len_word
 
-        for i in range(len(s)-len_windowSize+1):
+        output = []   
+
+        for i in range(len(s) - len_window + 1):
             j = i
             sub_freq = {}
 
-            while j < len_windowSize + i:
-                cur_word = s[j:j+len_word]
+            while j < len_window + i:
+                cur_c = s[j:j+len_word]
 
-                if cur_word not in word_freq:
+                if cur_c not in word_freq:
                     break
-                
-                sub_freq[cur_word] = 1 + sub_freq.get(cur_word, 0)
 
-                if sub_freq[cur_word] > word_freq[cur_word]:
+                sub_freq[cur_c] = 1 + sub_freq.get(cur_c, 0)
+
+                if sub_freq[cur_c] > word_freq[cur_c]:
                     break
                 
                 j += len_word
             
-            if j == len_windowSize + i:
+            if j == len_window + i:
                 output.append(i)
         
         return output
-
