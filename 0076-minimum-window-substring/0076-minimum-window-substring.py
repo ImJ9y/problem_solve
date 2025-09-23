@@ -5,16 +5,17 @@ class Solution(object):
         :type t: str
         :rtype: str
         """
-
+        
         if t == "": return ""
 
-        countT, window = {}, {}
+        countT, window ={}, {}
 
         for c in t:
             countT[c] = 1 + countT.get(c, 0)
         
-        need, have = len(countT), 0
         result, result_len = [-1, -1], float('inf')
+
+        have, need = 0, len(countT)
         L = 0
 
         for R in range(len(s)):
@@ -23,24 +24,22 @@ class Solution(object):
 
             if cur_c in countT and window[cur_c] == countT[cur_c]:
                 have += 1
-
+            
             while need == have:
-                #update result
+                #result update
                 if R - L + 1 < result_len:
-                    result = [L, R]
                     result_len = R - L + 1
-                
-                #pop left window
+                    result = [L, R]
+
+                #pop left
                 window[s[L]] -= 1
 
                 if s[L] in countT and window[s[L]] < countT[s[L]]:
                     have -= 1
             
                 L += 1
-    
+        
         L, R = result
 
         return s[L:R+1] if result_len != float('inf') else ""
-
-
-        
+            
