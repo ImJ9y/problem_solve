@@ -9,5 +9,13 @@ class Solution(object):
         for c in s:
             if c.isalnum():
                 new_s += c.lower()
+
+        L, R = 0, len(new_s)-1
+        while L < R:
+            if new_s[L] == new_s[R]:
+                L += 1
+                R -= 1
+            else:
+                return False
         
-        return new_s == new_s[::-1]
+        return True
