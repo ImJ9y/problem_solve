@@ -11,10 +11,9 @@ class Solution(object):
         ]
 
         ans = ""
-
-        for value, symbol in value_symbols:
-            while num >= value:
+        for val, symbol in value_symbols:
+            while num >= val:
+                num -= val
                 ans += symbol
-                num -= value
-
+        
         return ans
