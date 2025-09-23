@@ -4,17 +4,21 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+        
+
         L = 0
-        len_sub = 0
         charSet = set()
+        sub_len = 0
 
         for R in range(len(s)):
-            while s[R] in charSet:
+            cur_c = s[R]
+            while cur_c in charSet:
                 charSet.remove(s[L])
                 L += 1
             
-            charSet.add(s[R])
-            len_sub = max(len_sub, R-L+1)
+            charSet.add(cur_c)
+            sub_len = max(sub_len, R - L + 1)
+    
+        return sub_len
         
-        return len_sub
 
