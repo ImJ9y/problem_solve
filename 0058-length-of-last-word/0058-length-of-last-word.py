@@ -4,14 +4,15 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+        
         while s[-1] == " ":
             s = s[:-1]
         
-        count = 0
-        for i in range(len(s)-1,-1,-1):
-            if s[i] == ' ':
-                return count
-            
-            count += 1
+        if len(s) == 1:
+            return 1
         
-        return count
+        index = 0
+        for i in range(len(s)):
+            if s[i] == ' ':
+                index = i + 1
+        return len(s[index:])
