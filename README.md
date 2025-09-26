@@ -299,5 +299,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/ImJ9y/problem_solve/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/ImJ9y/problem_solve/tree/master/0322-coin-change) |
+## Depth-First Search
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/ImJ9y/problem_solve/tree/master/0207-course-schedule) |
+## Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/ImJ9y/problem_solve/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/ImJ9y/problem_solve/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
