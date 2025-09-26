@@ -301,16 +301,27 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/ImJ9y/problem_solve/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/ImJ9y/problem_solve/tree/master/0322-coin-change) |
+| [0744-network-delay-time](https://github.com/ImJ9y/problem_solve/tree/master/0744-network-delay-time) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/ImJ9y/problem_solve/tree/master/0207-course-schedule) |
+| [0744-network-delay-time](https://github.com/ImJ9y/problem_solve/tree/master/0744-network-delay-time) |
 ## Graph
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/ImJ9y/problem_solve/tree/master/0207-course-schedule) |
+| [0744-network-delay-time](https://github.com/ImJ9y/problem_solve/tree/master/0744-network-delay-time) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/ImJ9y/problem_solve/tree/master/0207-course-schedule) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/ImJ9y/problem_solve/tree/master/0744-network-delay-time) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/ImJ9y/problem_solve/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
