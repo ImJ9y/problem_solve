@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/ImJ9y/problem_solve/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
 | [0287-find-the-duplicate-number](https://github.com/ImJ9y/problem_solve/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/ImJ9y/problem_solve/tree/master/0322-coin-change) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ImJ9y/problem_solve/tree/master/0380-insert-delete-getrandom-o1) |
 | [0682-baseball-game](https://github.com/ImJ9y/problem_solve/tree/master/0682-baseball-game) |
@@ -75,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/ImJ9y/problem_solve/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ImJ9y/problem_solve/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ImJ9y/problem_solve/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/ImJ9y/problem_solve/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
 ## Greedy
@@ -244,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/ImJ9y/problem_solve/tree/master/0209-minimum-size-subarray-sum) |
 | [0278-first-bad-version](https://github.com/ImJ9y/problem_solve/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/ImJ9y/problem_solve/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0300-longest-increasing-subsequence) |
 | [0367-valid-perfect-square](https://github.com/ImJ9y/problem_solve/tree/master/0367-valid-perfect-square) |
 | [0792-binary-search](https://github.com/ImJ9y/problem_solve/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/ImJ9y/problem_solve/tree/master/0907-koko-eating-bananas) |
