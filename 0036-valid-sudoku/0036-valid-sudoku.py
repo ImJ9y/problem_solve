@@ -4,41 +4,41 @@ class Solution(object):
         :type board: List[List[str]]
         :rtype: bool
         """
+    
+        #row
+        for i in range(9):
+            check_set = set()
+            for j in range(9):
+                if board[i][j] in check_set:
+                    return False
+                elif board[i][j] != ".":
+                    check_set.add(board[i][j])
         
-        #row verification
+        #column
         for i in range(9):
-            s = set()
+            check_set = set()
             for j in range(9):
-                item = board[i][j]
-                if item in s:
+                if board[j][i] in check_set:
                     return False
-                elif item != '.':
-                    s.add(item)
-
-        #col verification
-        for i in range(9):
-            s = set()
-            for j in range(9):
-                item = board[j][i]
-                if item in s:
-                    return False
-                elif item != '.':
-                    s.add(item)
+                elif board[j][i] != ".":
+                    check_set.add(board[j][i])
 
         #boxes verification
         boxes = [(0,0),(0,3),(0,6),
         (3,0),(3,3),(3,6),
         (6,0),(6,3),(6,6)]
 
-        for i,j in boxes:
-            s = set()
-            for row in range(i, i+3):
-                for col in range(j, j+3):
-                    item = board[row][col]
-
-                    if item in s:
+        for box in boxes:
+            L, R = box
+            check_set = set()
+            for row in range(L, L+3):
+                for col in range(R, R+3):
+                    if board[row][col] in check_set:
                         return False
-                    elif item != '.':
-                        s.add(item)
-        
+                    elif board[row][col] != ".":
+                        check_set.add(board[row][col])
+
         return True
+
+
+        
