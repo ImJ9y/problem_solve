@@ -9,5 +9,5 @@ class Solution:
                     ans[i][j] = 1 + ans[i-1][j-1]
                 else:
                     ans[i][j] = max(ans[i-1][j], ans[i][j-1])
-        print(ans)
+                
         return ans[len(text1)-1][len(text2)-1]
