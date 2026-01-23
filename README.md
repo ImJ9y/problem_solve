@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0682-baseball-game](https://github.com/ImJ9y/problem_solve/tree/master/0682-baseball-game) |
 | [0721-accounts-merge](https://github.com/ImJ9y/problem_solve/tree/master/0721-accounts-merge) |
 | [0739-daily-temperatures](https://github.com/ImJ9y/problem_solve/tree/master/0739-daily-temperatures) |
+| [0746-min-cost-climbing-stairs](https://github.com/ImJ9y/problem_solve/tree/master/0746-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/ImJ9y/problem_solve/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/ImJ9y/problem_solve/tree/master/0907-koko-eating-bananas) |
 | [1019-squares-of-a-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/1019-squares-of-a-sorted-array) |
@@ -84,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/ImJ9y/problem_solve/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/ImJ9y/problem_solve/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
+| [0746-min-cost-climbing-stairs](https://github.com/ImJ9y/problem_solve/tree/master/0746-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ImJ9y/problem_solve/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1143-longest-common-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/1143-longest-common-subsequence) |
 ## Greedy
