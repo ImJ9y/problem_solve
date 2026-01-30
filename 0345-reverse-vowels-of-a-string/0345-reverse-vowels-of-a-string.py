@@ -6,13 +6,11 @@ class Solution:
 
         while L < R:
             if s[L].lower() in vowels:
-                if s[R].lower() in vowels:
-                    s[L], s[R] = s[R], s[L]
-                    L += 1
+                while s[R].lower() not in vowels:
                     R -= 1
-                else:
-                    R -= 1
-            else:
-                L += 1
+    
+                s[L], s[R] = s[R], s[L]
+                R -= 1
+            L += 1
         
         return "".join(s)
