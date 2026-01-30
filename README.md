@@ -121,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/ImJ9y/problem_solve/tree/master/0189-rotate-array) |
 | [0287-find-the-duplicate-number](https://github.com/ImJ9y/problem_solve/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/ImJ9y/problem_solve/tree/master/0344-reverse-string) |
+| [0345-reverse-vowels-of-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
 | [0908-middle-of-the-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/1019-squares-of-a-sorted-array) |
@@ -169,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/ImJ9y/problem_solve/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/ImJ9y/problem_solve/tree/master/0344-reverse-string) |
+| [0345-reverse-vowels-of-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
 | [0721-accounts-merge](https://github.com/ImJ9y/problem_solve/tree/master/0721-accounts-merge) |
 | [1143-longest-common-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/1143-longest-common-subsequence) |
