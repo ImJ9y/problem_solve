@@ -2,8 +2,8 @@ class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         pre_map = {i:[] for i in range(numCourses)}
 
-        for cur, pre in prerequisites:
-            pre_map[cur].append(pre)
+        for cur, prep in prerequisites:
+            pre_map[cur].append(prep)
         
         visited = set()
         def dfs(cur):
@@ -11,8 +11,8 @@ class Solution:
             if pre_map[cur] == []: return True
 
             visited.add(cur)
-            for pre in pre_map[cur]:
-                if not dfs(pre): return False
+            for prep in pre_map[cur]:
+                if not dfs(prep): return False
             
             visited.remove(cur)
             pre_map[cur] = []
