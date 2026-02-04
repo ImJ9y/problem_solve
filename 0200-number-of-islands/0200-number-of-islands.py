@@ -3,22 +3,21 @@ class Solution:
         row, col = len(grid), len(grid[0])
         num_island = 0
 
-        def dfs(r, c):
-            if r < 0 or r >= row or c < 0 or c >= col or grid[r][c] != "1":
+        def dfs(i, j):
+            if i < 0 or j < 0 or i >= row or j >= col or grid[i][j] != "1":
                 return
             
-            grid[r][c] = "0"
-            dfs(r-1,c)
-            dfs(r+1,c)
-            dfs(r,c-1)
-            dfs(r,c+1)
+            grid[i][j] = "0"
+            dfs(i-1, j)
+            dfs(i+1,j)
+            dfs(i, j-1)
+            dfs(i, j+1)
+        
 
         for i in range(row):
             for j in range(col):
-                if grid[i][j] != "0":
-                    dfs(i,j)
+                if grid[i][j] == "1":
                     num_island += 1
+                    dfs(i,j)
         
         return num_island
-        
-
