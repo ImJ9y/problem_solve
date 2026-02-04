@@ -1,46 +1,31 @@
-class Solution(object):
-    def fullJustify(self, words, maxWidth):
-        """
-        :type words: List[str]
-        :type maxWidth: int
-        :rtype: List[str]
-        """
-        cur_line, cur_len = [], 0
+class Solution:
+    def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
+        res = []
+        line, length = [], 0
         i = 0
-        output = []
 
         while i < len(words):
-            cur_word = words[i]
+            if length + len(line) + len(words[i]) > maxWidth:
 
-            #line is not completed
-            if cur_len + len(cur_word) <= maxWidth:
-                cur_len += len(cur_word) + 1 #space
-                cur_line.append(cur_word)
-                i += 1
+                extra_spaces = maxWidth - length
+                spaces = extra_spaces // max(1, len(line)-1)
+                remainder = extra_spaces % max(1, len(line)-1)
 
-            #line is completed
-            else:
-                spaces = maxWidth - cur_len + len(cur_line)
-
-                added = 0
-                j = 0
-
-                while added < spaces:
-                    if j >= len(cur_line)-1:
-                        j = 0
-                    
-                    cur_line[j] += " "
-                    j += 1
-                    added += 1
+                for j in range(max(1, len(line)-1)):
+                    line[j] += " " * spaces
+                    if remainder:
+                        line[j] += " "
+                        remainder -= 1
                 
-                output.append("".join(cur_line))
-                cur_line, cur_len = [], 0
+                res.append("".join(line))
+                line, length = [], 0
+
+            line.append(words[i])
+            length += len(words[i])
+            i += 1
         
-        last_word = " ".join(cur_line)
-        extra_spaces = maxWidth - len(last_word)
-        last_word += " " * extra_spaces
+        last_line = " ".join(line)
+        trail_spaces = maxWidth - len(last_line)
+        res.append(last_line + " " * trail_spaces)
 
-        output.append(last_word)
-
-        return output
-
+        return res
