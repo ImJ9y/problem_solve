@@ -199,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0083-remove-duplicates-from-sorted-list](https://github.com/ImJ9y/problem_solve/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/ImJ9y/problem_solve/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ImJ9y/problem_solve/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/ImJ9y/problem_solve/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0206-reverse-linked-list) |
 | [0838-design-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0838-design-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0908-middle-of-the-linked-list) |
@@ -225,6 +226,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ImJ9y/problem_solve/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/ImJ9y/problem_solve/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/ImJ9y/problem_solve/tree/master/0225-implement-stack-using-queues) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ImJ9y/problem_solve/tree/master/0380-insert-delete-getrandom-o1) |
@@ -233,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ImJ9y/problem_solve/tree/master/0146-lru-cache) |
 | [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
 ## Data Stream
 |  |
@@ -254,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/ImJ9y/problem_solve/tree/master/0076-minimum-window-substring) |
 | [0138-copy-list-with-random-pointer](https://github.com/ImJ9y/problem_solve/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ImJ9y/problem_solve/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/ImJ9y/problem_solve/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/ImJ9y/problem_solve/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ImJ9y/problem_solve/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ImJ9y/problem_solve/tree/master/0242-valid-anagram) |
