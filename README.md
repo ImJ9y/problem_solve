@@ -363,4 +363,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/ImJ9y/problem_solve/tree/master/0200-number-of-islands) |
+## Graph Theory
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/ImJ9y/problem_solve/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
