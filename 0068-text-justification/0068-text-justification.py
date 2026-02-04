@@ -8,13 +8,13 @@ class Solution:
             if length + len(line) + len(words[i]) > maxWidth:
 
                 extra_spaces = maxWidth - length
-                spaces = extra_spaces // max(1, len(line)-1)
-                remainder = extra_spaces % max(1, len(line)-1)
+                spaces = extra_spaces // max(1,len(line)-1)
+                remainder = extra_spaces % max(1,len(line)-1)
 
                 for j in range(max(1, len(line)-1)):
-                    line[j] += " " * spaces
+                    line[j] += ' ' * spaces
                     if remainder:
-                        line[j] += " "
+                        line[j] += ' '
                         remainder -= 1
                 
                 res.append("".join(line))
@@ -26,6 +26,5 @@ class Solution:
         
         last_line = " ".join(line)
         trail_spaces = maxWidth - len(last_line)
-        res.append(last_line + " " * trail_spaces)
-
+        res.append(last_line + ' ' * trail_spaces)
         return res
