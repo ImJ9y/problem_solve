@@ -16,9 +16,9 @@ class Solution:
                 else:
                     L = M + 1
             else:
-                if nums[M] >= target > nums[R]:
-                    R = M - 1
-                else:
+                if nums[M] < target <= nums[R]:
                     L = M + 1
+                else:
+                    R = M - 1
         
         return ans
