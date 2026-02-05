@@ -1,6 +1,6 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        output = []
+        res = []
         nums.sort()
 
         for i, n in enumerate(nums):
@@ -9,23 +9,23 @@ class Solution:
             
             L = i + 1
             R = len(nums)-1
-
             while L < R:
-                curr = n + nums[L] + nums[R]
+                cur = n + nums[L] + nums[R]
 
-                if curr < 0:
+                if cur < 0:
                     L += 1
-                elif curr > 0:
+                elif cur > 0:
                     R -= 1
                 else:
-                    output.append([n, nums[L], nums[R]])
+                    res.append([n,nums[L],nums[R]])
 
                     while L < R and nums[L] == nums[L+1]:
                         L += 1
+                    
                     while R > L and nums[R] == nums[R-1]:
                         R -= 1
                     
                     L += 1
                     R -= 1
-
-        return output
+        
+        return res
