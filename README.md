@@ -103,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0134-gas-station](https://github.com/ImJ9y/problem_solve/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/ImJ9y/problem_solve/tree/master/0135-candy) |
 | [0605-can-place-flowers](https://github.com/ImJ9y/problem_solve/tree/master/0605-can-place-flowers) |
+| [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ImJ9y/problem_solve/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 ## Two Pointers
 |  |
 | ------- |
@@ -145,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
 | [0721-accounts-merge](https://github.com/ImJ9y/problem_solve/tree/master/0721-accounts-merge) |
 | [1019-squares-of-a-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/1019-squares-of-a-sorted-array) |
+| [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ImJ9y/problem_solve/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -180,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
 | [0721-accounts-merge](https://github.com/ImJ9y/problem_solve/tree/master/0721-accounts-merge) |
 | [1143-longest-common-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/1143-longest-common-subsequence) |
+| [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ImJ9y/problem_solve/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1894-merge-strings-alternately](https://github.com/ImJ9y/problem_solve/tree/master/1894-merge-strings-alternately) |
 ## Math
 |  |
@@ -265,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/ImJ9y/problem_solve/tree/master/0242-valid-anagram) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ImJ9y/problem_solve/tree/master/0380-insert-delete-getrandom-o1) |
 | [0721-accounts-merge](https://github.com/ImJ9y/problem_solve/tree/master/0721-accounts-merge) |
+| [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ImJ9y/problem_solve/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 ## Binary Search
 |  |
 | ------- |
