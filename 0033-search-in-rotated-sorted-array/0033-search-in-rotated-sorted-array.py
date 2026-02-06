@@ -3,9 +3,9 @@ class Solution:
         L, R = 0, len(nums)-1
         ans = -1
 
+
         while L <= R:
             M = (L+R)//2
-
             if nums[M] == target:
                 ans = M
                 break
@@ -16,9 +16,9 @@ class Solution:
                 else:
                     L = M + 1
             else:
-                if nums[M] < target <= nums[R]:
+                if nums[R] >= target > nums[M]:
                     L = M + 1
                 else:
                     R = M - 1
-        
+
         return ans
