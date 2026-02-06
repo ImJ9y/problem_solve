@@ -12,9 +12,10 @@ class Solution:
 
             visited.add(cur)
             for preq in pre_map[cur]:
-                if not dfs(preq): return False
+                if not dfs(preq):return False
+            
             visited.remove(cur)
-            pre_map[cur] = []
+            pre_map[cur]=[]
             return True
         
         for cur in range(numCourses):
