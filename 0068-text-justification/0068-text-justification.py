@@ -7,12 +7,11 @@ class Solution:
         while i < len(words):
             if length + len(line) + len(words[i]) > maxWidth:
                 extra_spaces = maxWidth - length
-                spaces = extra_spaces // max(1, len(line)-1)
-                remainder = extra_spaces % max(1, len(line)-1)
-                
+                spaces = extra_spaces//max(1, len(line)-1)
+                remainder = extra_spaces%max(1, len(line)-1)
+
                 for j in range(max(1, len(line)-1)):
                     line[j] += ' ' * spaces
-
                     if remainder:
                         line[j] += ' '
                         remainder -= 1
@@ -25,6 +24,6 @@ class Solution:
             i += 1
         
         last_line = " ".join(line)
-        trail_spaces = maxWidth - len(last_line)
-        res.append(last_line + ' ' * trail_spaces)
+        last_spaces = maxWidth - len(last_line)
+        res.append(last_line + ' ' * last_spaces)
         return res
