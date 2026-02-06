@@ -20,13 +20,13 @@ class LRUCache:
     def insert(self, node):
         prev, next = self.right.prev, self.right
         prev.next = next.prev = node
-        node.next, node.prev = next, prev
-    
+        node.prev, node.next = prev, next
 
     def get(self, key: int) -> int:
         if key in self.cache:
             self.remove(self.cache[key])
             self.insert(self.cache[key])
+
             return self.cache[key].val
         
         return -1
@@ -43,6 +43,7 @@ class LRUCache:
             lru = self.left.next
             self.remove(lru)
             del self.cache[lru.key]
+        
 
 
 # Your LRUCache object will be instantiated and called as such:
