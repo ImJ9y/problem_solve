@@ -3,13 +3,12 @@ class Solution:
         charSet = set()
         length = 0
         L = 0
-
         for R in range(len(s)):
             while s[R] in charSet:
                 charSet.remove(s[L])
                 L += 1
             
             charSet.add(s[R])
-            length = max(length, len(charSet))
-        
+            length = max(length, R - L + 1)
+
         return length
