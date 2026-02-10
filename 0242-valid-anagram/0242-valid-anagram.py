@@ -1,24 +1,12 @@
-class Solution(object):
-    def isAnagram(self, s, t):
-        """
-        :type s: str
-        :type t: str
-        :rtype: bool
-        """
-        s_hash_map = {}
-        t_hash_map = {}
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        char_map1 = {}
+        char_map2 = {}
 
-        for i in range(len(s)):
-            if s[i] not in s_hash_map:
-                s_hash_map[s[i]] = 1
-            else:
-                s_hash_map[s[i]] += 1
+        for c in s:
+            char_map1[c] = 1 + char_map1.get(c, 0)
         
-        for j in range(len(t)):
-            if t[j] not in t_hash_map:
-                t_hash_map[t[j]] = 1
-            else:
-                t_hash_map[t[j]] += 1
-        
-        return s_hash_map == t_hash_map
+        for c in t:
+            char_map2[c] = 1 + char_map2.get(c, 0)
 
+        return char_map1 == char_map2
