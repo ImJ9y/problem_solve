@@ -11,11 +11,11 @@ class Solution:
             dfs(i+1, j)
             dfs(i, j-1)
             dfs(i, j+1)
-        
+    
         for i in range(row):
             for j in range(col):
                 if grid[i][j] == "1":
                     num_island += 1
                     dfs(i,j)
-
-        return num_island            
+        
+        return num_island
