@@ -3,10 +3,8 @@ class Solution:
         num_map = {}
 
         for i in range(len(nums)):
-            curr = target - nums[i]
-            if curr in num_map:
-                return [num_map[curr], i]
+            cur = target-nums[i]
+            if cur in num_map:
+                return i, num_map[cur]
             else:
                 num_map[nums[i]] = i
-        
-            
