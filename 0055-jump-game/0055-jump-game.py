@@ -7,10 +7,12 @@ class Solution(object):
         goal = len(nums)-1
 
         for i in range(len(nums)-1,-1,-1):
-            farthest = i + nums[i]
-
-            if farthest >= goal:
+            fastest = i + nums[i]
+            if fastest >= goal:
                 goal = i
         
         return goal == 0
 
+
+        
+        
