@@ -12,7 +12,7 @@ class Solution:
 
             while L < R:
                 cur = n + nums[L] + nums[R]
-                
+
                 if cur < 0:
                     L += 1
                 elif cur > 0:
@@ -27,7 +27,5 @@ class Solution:
                     
                     L += 1
                     R -= 1
-            
-        return res
-
         
+        return res
