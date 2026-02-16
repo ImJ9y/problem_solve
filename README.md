@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0380-insert-delete-getrandom-o1](https://github.com/ImJ9y/problem_solve/tree/master/0380-insert-delete-getrandom-o1) |
 | [0560-subarray-sum-equals-k](https://github.com/ImJ9y/problem_solve/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/ImJ9y/problem_solve/tree/master/0605-can-place-flowers) |
+| [0643-maximum-average-subarray-i](https://github.com/ImJ9y/problem_solve/tree/master/0643-maximum-average-subarray-i) |
 | [0682-baseball-game](https://github.com/ImJ9y/problem_solve/tree/master/0682-baseball-game) |
 | [0721-accounts-merge](https://github.com/ImJ9y/problem_solve/tree/master/0721-accounts-merge) |
 | [0739-daily-temperatures](https://github.com/ImJ9y/problem_solve/tree/master/0739-daily-temperatures) |
@@ -340,6 +341,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0030-substring-with-concatenation-of-all-words](https://github.com/ImJ9y/problem_solve/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0076-minimum-window-substring](https://github.com/ImJ9y/problem_solve/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/ImJ9y/problem_solve/tree/master/0209-minimum-size-subarray-sum) |
+| [0643-maximum-average-subarray-i](https://github.com/ImJ9y/problem_solve/tree/master/0643-maximum-average-subarray-i) |
 | [1004-max-consecutive-ones-iii](https://github.com/ImJ9y/problem_solve/tree/master/1004-max-consecutive-ones-iii) |
 ## Breadth-First Search
 |  |
