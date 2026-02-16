@@ -5,8 +5,7 @@ class Solution:
 
         L = 0
         for i in range(k, len(nums)):
-            sum_num += nums[i]
-            sum_num -= nums[L]
+            sum_num += nums[i] - nums[L]
             max_num = max(max_num, sum_num)
             L += 1
         
