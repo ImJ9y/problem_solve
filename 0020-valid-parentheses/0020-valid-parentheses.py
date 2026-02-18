@@ -1,17 +1,17 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        closed_p = {')':'(','}':'{',']':'['}
+        closed_parenthese = {')':'(', '}':"{",']':'['}
         res = []
 
-        for i in range(len(s)):
-            if s[i] in closed_p:
-                if res and res[-1] == closed_p[s[i]]:
+        for c in s:
+            if c in closed_parenthese:
+                if res and res[-1] == closed_parenthese[c]:
                     res.pop()
                 else:
                     return False
             else:
-                res.append(s[i])
-
+                res.append(c)
+        
         return not res
             
 
