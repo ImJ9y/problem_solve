@@ -5,9 +5,8 @@
 #         self.next = None
 
 class Solution:
-    def hasCycle(self, head: Optional[ListNode]) -> bool: 
-        # slow = head
-        # fast = head
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        # slow, fast = head, head
 
         # while fast and fast.next:
         #     slow = slow.next
@@ -15,16 +14,15 @@ class Solution:
 
         #     if slow == fast:
         #         return True
-
+            
         # return False
 
         visited = set()
         cur = head
-
         while cur:
             if cur in visited:
                 return True
-            else:
-                visited.add(cur)
-                cur = cur.next
+            visited.add(cur)
+            cur = cur.next
+        
         return False
