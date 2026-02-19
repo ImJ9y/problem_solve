@@ -4,7 +4,6 @@ class RecentCounter:
         self.cache = collections.deque()
 
     def ping(self, t: int) -> int:
-        
         self.cache.append(t)
         
         while self.cache[0] < t - 3000:
