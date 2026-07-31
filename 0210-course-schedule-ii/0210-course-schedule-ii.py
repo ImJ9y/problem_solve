@@ -15,7 +15,7 @@ class Solution:
             
             cycle.add(cur)
             for preq in preq_map[cur]:
-                if not dfs(preq):
+                if dfs(preq) == False:
                     return []
             cycle.remove(cur)
             visit.add(cur)
@@ -23,7 +23,7 @@ class Solution:
             return True
         
         for i in range(numCourses):
-            if not dfs(i):
+            if dfs(i) == False:
                 return []
         
         return res
