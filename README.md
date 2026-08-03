@@ -421,4 +421,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/ImJ9y/problem_solve/tree/master/0298-binary-tree-longest-consecutive-sequence) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
