@@ -365,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/ImJ9y/problem_solve/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/ImJ9y/problem_solve/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ImJ9y/problem_solve/tree/master/0210-course-schedule-ii) |
@@ -375,6 +376,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/ImJ9y/problem_solve/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/ImJ9y/problem_solve/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ImJ9y/problem_solve/tree/master/0210-course-schedule-ii) |
@@ -420,10 +422,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/ImJ9y/problem_solve/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 ## Binary Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/ImJ9y/problem_solve/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 ## Longest Increasing Subsequence
 |  |
