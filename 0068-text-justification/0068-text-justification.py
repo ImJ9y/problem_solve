@@ -1,11 +1,11 @@
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
         line, length = [], 0
-        res = []
         i = 0
+        res = []
 
         while i < len(words):
-            if length + len(line) + len(words[i]) > maxWidth:
+            if length + len(words[i]) + len(line) > maxWidth:
                 extra_spaces = maxWidth - length
                 spaces = extra_spaces // max(1, len(line)-1)
                 remainder = extra_spaces % max(1, len(line)-1)
@@ -15,10 +15,10 @@ class Solution:
                     if remainder:
                         line[j] += ' '
                         remainder -= 1
-
+                
                 res.append("".join(line))
                 line, length = [], 0
-
+            
             line.append(words[i])
             length += len(words[i])
             i += 1
