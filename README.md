@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/ImJ9y/problem_solve/tree/master/0217-contains-duplicate) |
 | [0228-summary-ranges](https://github.com/ImJ9y/problem_solve/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/ImJ9y/problem_solve/tree/master/0238-product-of-array-except-self) |
+| [0252-meeting-rooms](https://github.com/ImJ9y/problem_solve/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/ImJ9y/problem_solve/tree/master/0253-meeting-rooms-ii) |
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/ImJ9y/problem_solve/tree/master/0283-move-zeroes) |
@@ -164,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/ImJ9y/problem_solve/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ImJ9y/problem_solve/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ImJ9y/problem_solve/tree/master/0242-valid-anagram) |
+| [0252-meeting-rooms](https://github.com/ImJ9y/problem_solve/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/ImJ9y/problem_solve/tree/master/0253-meeting-rooms-ii) |
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
 | [0721-accounts-merge](https://github.com/ImJ9y/problem_solve/tree/master/0721-accounts-merge) |
@@ -461,4 +463,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/ImJ9y/problem_solve/tree/master/0322-coin-change) |
+## Quicksort
+|  |
+| ------- |
+| [0252-meeting-rooms](https://github.com/ImJ9y/problem_solve/tree/master/0252-meeting-rooms) |
 <!---LeetCode Topics End-->
