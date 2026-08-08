@@ -152,6 +152,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0908-middle-of-the-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/ImJ9y/problem_solve/tree/master/1894-merge-strings-alternately) |
+| [3794-reverse-string-prefix](https://github.com/ImJ9y/problem_solve/tree/master/3794-reverse-string-prefix) |
 ## Sorting
 |  |
 | ------- |
@@ -215,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1143-longest-common-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/1143-longest-common-subsequence) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ImJ9y/problem_solve/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1894-merge-strings-alternately](https://github.com/ImJ9y/problem_solve/tree/master/1894-merge-strings-alternately) |
+| [3794-reverse-string-prefix](https://github.com/ImJ9y/problem_solve/tree/master/3794-reverse-string-prefix) |
 ## Math
 |  |
 | ------- |
