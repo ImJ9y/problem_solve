@@ -12,9 +12,9 @@ class Solution:
             s1, e1 = slots1[i]
             s2, e2 = slots2[j]
 
-            if min(e1, e2) - max(s1, s2) >= duration:
-                return [max(s1, s2), max(s1, s2) + duration]
-            
+            if min(e1, e2) - max(s1,s2) >= duration:
+                return [max(s1,s2), max(s1,s2) + duration]
+        
             if e1 > e2:
                 j += 1
             else:
