@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1004-max-consecutive-ones-iii](https://github.com/ImJ9y/problem_solve/tree/master/1004-max-consecutive-ones-iii) |
 | [1019-squares-of-a-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/1019-squares-of-a-sorted-array) |
 | [1207-unique-number-of-occurrences](https://github.com/ImJ9y/problem_solve/tree/master/1207-unique-number-of-occurrences) |
+| [1229-meeting-scheduler](https://github.com/ImJ9y/problem_solve/tree/master/1229-meeting-scheduler) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/ImJ9y/problem_solve/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1582-design-browser-history](https://github.com/ImJ9y/problem_solve/tree/master/1582-design-browser-history) |
 | [1732-find-the-highest-altitude](https://github.com/ImJ9y/problem_solve/tree/master/1732-find-the-highest-altitude) |
@@ -155,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0723-candy-crush](https://github.com/ImJ9y/problem_solve/tree/master/0723-candy-crush) |
 | [0908-middle-of-the-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/1019-squares-of-a-sorted-array) |
+| [1229-meeting-scheduler](https://github.com/ImJ9y/problem_solve/tree/master/1229-meeting-scheduler) |
 | [1894-merge-strings-alternately](https://github.com/ImJ9y/problem_solve/tree/master/1894-merge-strings-alternately) |
 | [3794-reverse-string-prefix](https://github.com/ImJ9y/problem_solve/tree/master/3794-reverse-string-prefix) |
 ## Sorting
@@ -175,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0274-h-index](https://github.com/ImJ9y/problem_solve/tree/master/0274-h-index) |
 | [0721-accounts-merge](https://github.com/ImJ9y/problem_solve/tree/master/0721-accounts-merge) |
 | [1019-squares-of-a-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/1019-squares-of-a-sorted-array) |
+| [1229-meeting-scheduler](https://github.com/ImJ9y/problem_solve/tree/master/1229-meeting-scheduler) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ImJ9y/problem_solve/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 ## Prefix Sum
 |  |
