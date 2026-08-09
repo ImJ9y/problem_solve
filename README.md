@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0643-maximum-average-subarray-i](https://github.com/ImJ9y/problem_solve/tree/master/0643-maximum-average-subarray-i) |
 | [0682-baseball-game](https://github.com/ImJ9y/problem_solve/tree/master/0682-baseball-game) |
 | [0721-accounts-merge](https://github.com/ImJ9y/problem_solve/tree/master/0721-accounts-merge) |
+| [0723-candy-crush](https://github.com/ImJ9y/problem_solve/tree/master/0723-candy-crush) |
 | [0724-find-pivot-index](https://github.com/ImJ9y/problem_solve/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/ImJ9y/problem_solve/tree/master/0739-daily-temperatures) |
 | [0746-min-cost-climbing-stairs](https://github.com/ImJ9y/problem_solve/tree/master/0746-min-cost-climbing-stairs) |
@@ -83,12 +84,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/ImJ9y/problem_solve/tree/master/0200-number-of-islands) |
+| [0723-candy-crush](https://github.com/ImJ9y/problem_solve/tree/master/0723-candy-crush) |
 ## Simulation
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0054-spiral-matrix) |
 | [0068-text-justification](https://github.com/ImJ9y/problem_solve/tree/master/0068-text-justification) |
 | [0682-baseball-game](https://github.com/ImJ9y/problem_solve/tree/master/0682-baseball-game) |
+| [0723-candy-crush](https://github.com/ImJ9y/problem_solve/tree/master/0723-candy-crush) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ImJ9y/problem_solve/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 ## Dynamic Programming
 |  |
@@ -149,6 +152,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0344-reverse-string](https://github.com/ImJ9y/problem_solve/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
+| [0723-candy-crush](https://github.com/ImJ9y/problem_solve/tree/master/0723-candy-crush) |
 | [0908-middle-of-the-linked-list](https://github.com/ImJ9y/problem_solve/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/ImJ9y/problem_solve/tree/master/1894-merge-strings-alternately) |
