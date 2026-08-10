@@ -1,9 +1,9 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        course_map = {i:[] for i in range(numCourses)}
+        pre_map = {i:[] for i in range(numCourses)}
 
-        for cur,preq in prerequisites:
-            course_map[cur].append(preq)
+        for cur, preq in prerequisites:
+            pre_map[cur].append(preq)
         
         visit, cycle = set(), set()
         res = []
@@ -11,20 +11,20 @@ class Solution:
         def dfs(cur):
             if cur in cycle:
                 return False
-            if cur in visit:
+            if cur in res:
                 return True
             
             cycle.add(cur)
-            for preq in course_map[cur]:
-                if not(dfs(preq)):
-                    return False
+            for pre in pre_map[cur]:
+                if not dfs(pre):
+                    return []
             cycle.remove(cur)
             visit.add(cur)
             res.append(cur)
             return True
         
-        for c in range(numCourses):
-            if not dfs(c):
+        for i in range(numCourses):
+            if not dfs(i):
                 return False
         
         return True
