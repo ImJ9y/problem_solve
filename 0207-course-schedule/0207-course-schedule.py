@@ -11,7 +11,7 @@ class Solution:
         def dfs(cur):
             if cur in cycle:
                 return False
-            if cur in res:
+            if cur in visit:
                 return True
             
             cycle.add(cur)
