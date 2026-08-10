@@ -17,7 +17,7 @@ class Solution:
             cycle.add(cur)
             for pre in pre_map[cur]:
                 if not dfs(pre):
-                    return []
+                    return False
             cycle.remove(cur)
             visit.add(cur)
             res.append(cur)
