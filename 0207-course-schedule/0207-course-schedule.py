@@ -6,21 +6,20 @@ class Solution:
             preq_map[cur].append(preq)
         
 
-        visit, cycle = set(), set()
+        visit = set()
         res = []
 
         def dfs(cur):
-            if cur in cycle:
+            if cur in visit:
                 return False
             if cur in res:
                 return True
             
-            cycle.add(cur)
+            visit.add(cur)
             for preq in preq_map[cur]:
                 if not dfs(preq):
                     return False
-            cycle.remove(cur)
-            visit.add(cur)
+            visit.remove(cur)
             res.append(cur)
             return True
         
@@ -29,4 +28,5 @@ class Solution:
             if not dfs(i):
                 return False
         
+        print(res)
         return True
