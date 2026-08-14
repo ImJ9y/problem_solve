@@ -1,16 +1,17 @@
-class Solution(object):
-    def maxProduct(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        min_num, max_num = 1,1
-        max_product = max(nums)
+class Solution:
+    def maxProduct(self, nums: List[int]) -> int:
+        if len(nums) == 1:
+            return nums[0]
         
-        for n in nums:
-            temp = max_num * n
-            max_num = max(min_num * n, max_num * n, n)
-            min_num = min(min_num * n, temp, n)
-            max_product = max(max_num, min_num, max_product)
-            
-        return max_product
+        max_prod = 0
+        L = 0
+
+        while L < len(nums):
+            cur = 1
+            for R in range(L, len(nums)):
+                cur *= nums[R]
+                if max_prod < cur:
+                    max_prod = cur
+            L += 1
+        
+        return max_prod
