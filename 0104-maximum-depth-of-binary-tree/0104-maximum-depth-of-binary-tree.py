@@ -1,3 +1,4 @@
+import collections
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -9,4 +10,17 @@ class Solution:
         if not root:
             return 0
         
-        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+        #BFS
+        queue = collections.deque([root])
+        num_depth = 0
+
+        while queue:
+            num_depth += 1
+            for _ in range(len(queue)):
+                node = queue.popleft()
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+
+        return num_depth
