@@ -12,7 +12,7 @@ class Solution:
         def dfs(cur):
             if cur in visit:
                 return False
-            if cur in res:
+            if preq_map[cur] == []:
                 return True
             
             visit.add(cur)
@@ -20,7 +20,7 @@ class Solution:
                 if not dfs(preq):
                     return False
             visit.remove(cur)
-            res.append(cur)
+            preq_map[cur] = []
             return True
         
         
