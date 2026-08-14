@@ -4,12 +4,13 @@ class Solution:
             return -1
         
         start = 0
-        target = 0
-        for i in range(len(gas)):
-            target += gas[i] - cost[i]
+        cur = 0
 
-            if target < 0:
-                target = 0
+        for i in range(len(gas)):
+            cur += gas[i] - cost[i]
+
+            if cur < 0:
                 start = i + 1
+                cur = 0
         
         return start
