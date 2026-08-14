@@ -218,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/ImJ9y/problem_solve/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/ImJ9y/problem_solve/tree/master/0242-valid-anagram) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/ImJ9y/problem_solve/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0344-reverse-string](https://github.com/ImJ9y/problem_solve/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
@@ -312,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/ImJ9y/problem_solve/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ImJ9y/problem_solve/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ImJ9y/problem_solve/tree/master/0242-valid-anagram) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/ImJ9y/problem_solve/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ImJ9y/problem_solve/tree/master/0380-insert-delete-getrandom-o1) |
 | [0560-subarray-sum-equals-k](https://github.com/ImJ9y/problem_solve/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/ImJ9y/problem_solve/tree/master/0721-accounts-merge) |
@@ -380,6 +382,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0030-substring-with-concatenation-of-all-words](https://github.com/ImJ9y/problem_solve/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0076-minimum-window-substring](https://github.com/ImJ9y/problem_solve/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/ImJ9y/problem_solve/tree/master/0209-minimum-size-subarray-sum) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/ImJ9y/problem_solve/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0643-maximum-average-subarray-i](https://github.com/ImJ9y/problem_solve/tree/master/0643-maximum-average-subarray-i) |
 | [1004-max-consecutive-ones-iii](https://github.com/ImJ9y/problem_solve/tree/master/1004-max-consecutive-ones-iii) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/ImJ9y/problem_solve/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
