@@ -12,7 +12,7 @@ class Solution:
         def dfs(cur):
             if cur in cycle:
                 return False
-            if cur in visit:
+            if cur in res:
                 return True
             
             cycle.add(cur)
