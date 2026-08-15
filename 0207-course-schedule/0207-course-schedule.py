@@ -20,9 +20,8 @@ class Solution:
             preq_map[cur] = []
             return True
         
-        
         for i in range(numCourses):
             if not dfs(i):
                 return False
-
+            
         return True
