@@ -1,9 +1,9 @@
 class Solution:
     def lengthOfLongestSubstringKDistinct(self, s: str, k: int) -> int:
-        longest = 0
         L, R = 0, 0
-        n = len(s)
         char_map = {}
+        longest = 0
+        n = len(s)
 
         while R < n:
             char_map[s[R]] = char_map.get(s[R], 0) + 1
