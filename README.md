@@ -225,6 +225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0344-reverse-string](https://github.com/ImJ9y/problem_solve/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/0392-is-subsequence) |
+| [0424-longest-repeating-character-replacement](https://github.com/ImJ9y/problem_solve/tree/master/0424-longest-repeating-character-replacement) |
 | [0721-accounts-merge](https://github.com/ImJ9y/problem_solve/tree/master/0721-accounts-merge) |
 | [1143-longest-common-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/1143-longest-common-subsequence) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/ImJ9y/problem_solve/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
@@ -319,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/ImJ9y/problem_solve/tree/master/0242-valid-anagram) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/ImJ9y/problem_solve/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ImJ9y/problem_solve/tree/master/0380-insert-delete-getrandom-o1) |
+| [0424-longest-repeating-character-replacement](https://github.com/ImJ9y/problem_solve/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/ImJ9y/problem_solve/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/ImJ9y/problem_solve/tree/master/0721-accounts-merge) |
 | [1207-unique-number-of-occurrences](https://github.com/ImJ9y/problem_solve/tree/master/1207-unique-number-of-occurrences) |
@@ -388,6 +390,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/ImJ9y/problem_solve/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/ImJ9y/problem_solve/tree/master/0209-minimum-size-subarray-sum) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/ImJ9y/problem_solve/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/ImJ9y/problem_solve/tree/master/0424-longest-repeating-character-replacement) |
 | [0643-maximum-average-subarray-i](https://github.com/ImJ9y/problem_solve/tree/master/0643-maximum-average-subarray-i) |
 | [1004-max-consecutive-ones-iii](https://github.com/ImJ9y/problem_solve/tree/master/1004-max-consecutive-ones-iii) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/ImJ9y/problem_solve/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
