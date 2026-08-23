@@ -1,9 +1,14 @@
 class Solution:
     def canAttendMeetings(self, intervals: List[List[int]]) -> bool:
-        intervals.sort()
+        res = []
 
-        for i in range(1, len(intervals)):
-            if intervals[i-1][1] > intervals[i][0]:
+        new_intervals = sorted(list(intervals))
+        print(new_intervals)
+
+        for interval in new_intervals:
+            if res and res[-1][1] > interval[0]:
                 return False
-        
+            else:
+                res.append(interval)
+            
         return True
