@@ -1,17 +1,17 @@
 class Solution:
     def longestPalindrome(self, s: str) -> int:
-        char_map = {}
+        char_c = defaultdict(int)
 
-        count = 0
+        res = 0
         for c in s:
-            char_map[c] = char_map.get(c, 0) + 1
-    
-            if char_map[c] % 2 == 0:
-                count += 2
+            char_c[c] += 1
+            if char_c[c] % 2 == 0:
+                res += 2
         
-        for _, value in char_map.items():
-            if value % 2 == 1:
-                count += 1
+        for c in s:
+            if char_c[c] % 2 == 1:
+                res += 1
                 break
         
-        return count
+        return res
+        
