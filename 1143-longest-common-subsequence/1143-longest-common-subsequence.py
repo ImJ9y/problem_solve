@@ -2,11 +2,6 @@ class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         res = [[0 for _ in range(len(text2)+1)] for _ in range(len(text1))]
 
-        #     a b c d e
-        # a   1 1 0 0 0 
-        # c   1 1 2 2 2
-        # e   1 1 2 2 3  
-
         for i in range(len(text1)):
             for j in range(len(text2)):
                 if i < len(text1) and text1[i] == text2[j]:
