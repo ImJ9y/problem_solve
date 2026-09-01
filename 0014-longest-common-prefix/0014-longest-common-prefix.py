@@ -1,11 +1,7 @@
-class Solution(object):
-    def longestCommonPrefix(self, strs):
-        """
-        :type strs: List[str]
-        :rtype: str
-        """
+class Solution:
+    def longestCommonPrefix(self, strs: List[str]) -> str:
         prefix = strs[0]
-
+    
         for s in strs:
             while s.find(prefix):
                 prefix = prefix[:-1]
