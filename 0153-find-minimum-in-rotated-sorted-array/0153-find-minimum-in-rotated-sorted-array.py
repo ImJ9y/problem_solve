@@ -8,7 +8,8 @@ class Solution:
                 res = min(res, nums[L])
                 break
 
-            M = (L + R) //2
+            M = (L + R)//2
+            res = min(res, nums[M])
             if nums[R] > nums[M]:
                 R = M - 1
             else:
