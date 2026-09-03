@@ -104,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/ImJ9y/problem_solve/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/ImJ9y/problem_solve/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ImJ9y/problem_solve/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/ImJ9y/problem_solve/tree/master/0062-unique-paths) |
 | [0072-edit-distance](https://github.com/ImJ9y/problem_solve/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/ImJ9y/problem_solve/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/ImJ9y/problem_solve/tree/master/0115-distinct-subsequences) |
@@ -246,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/ImJ9y/problem_solve/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/ImJ9y/problem_solve/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/ImJ9y/problem_solve/tree/master/0048-rotate-image) |
+| [0062-unique-paths](https://github.com/ImJ9y/problem_solve/tree/master/0062-unique-paths) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ImJ9y/problem_solve/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/ImJ9y/problem_solve/tree/master/0189-rotate-array) |
 | [0367-valid-perfect-square](https://github.com/ImJ9y/problem_solve/tree/master/0367-valid-perfect-square) |
@@ -538,4 +540,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/ImJ9y/problem_solve/tree/master/1143-longest-common-subsequence) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/ImJ9y/problem_solve/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
