@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0068-text-justification](https://github.com/ImJ9y/problem_solve/tree/master/0068-text-justification) |
 | [0074-search-a-2d-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ImJ9y/problem_solve/tree/master/0075-sort-colors) |
+| [0079-word-search](https://github.com/ImJ9y/problem_solve/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ImJ9y/problem_solve/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ImJ9y/problem_solve/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/ImJ9y/problem_solve/tree/master/0088-merge-sorted-array) |
@@ -86,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/ImJ9y/problem_solve/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/ImJ9y/problem_solve/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/ImJ9y/problem_solve/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/ImJ9y/problem_solve/tree/master/0200-number-of-islands) |
 | [0723-candy-crush](https://github.com/ImJ9y/problem_solve/tree/master/0723-candy-crush) |
 | [0778-swim-in-rising-water](https://github.com/ImJ9y/problem_solve/tree/master/0778-swim-in-rising-water) |
@@ -222,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0068-text-justification](https://github.com/ImJ9y/problem_solve/tree/master/0068-text-justification) |
 | [0072-edit-distance](https://github.com/ImJ9y/problem_solve/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/ImJ9y/problem_solve/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/ImJ9y/problem_solve/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/ImJ9y/problem_solve/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/ImJ9y/problem_solve/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/ImJ9y/problem_solve/tree/master/0125-valid-palindrome) |
@@ -428,6 +431,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/ImJ9y/problem_solve/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/ImJ9y/problem_solve/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/ImJ9y/problem_solve/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -552,4 +556,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/ImJ9y/problem_solve/tree/master/0062-unique-paths) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/ImJ9y/problem_solve/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
