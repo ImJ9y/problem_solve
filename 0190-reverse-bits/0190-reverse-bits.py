@@ -8,7 +8,6 @@ class Solution:
 
         extra_zero = 32 - len(res)
         res += '0' * extra_zero
-
         
         ans = 0
         res_list = list(res)
