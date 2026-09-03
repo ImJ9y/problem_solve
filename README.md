@@ -412,6 +412,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/ImJ9y/problem_solve/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0127-word-ladder](https://github.com/ImJ9y/problem_solve/tree/master/0127-word-ladder) |
 | [0200-number-of-islands](https://github.com/ImJ9y/problem_solve/tree/master/0200-number-of-islands) |
@@ -428,6 +429,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/ImJ9y/problem_solve/tree/master/0098-validate-binary-search-tree) |
+| [0100-same-tree](https://github.com/ImJ9y/problem_solve/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/ImJ9y/problem_solve/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/ImJ9y/problem_solve/tree/master/0207-course-schedule) |
@@ -482,6 +484,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/ImJ9y/problem_solve/tree/master/0098-validate-binary-search-tree) |
+| [0100-same-tree](https://github.com/ImJ9y/problem_solve/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0226-invert-binary-tree) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/ImJ9y/problem_solve/tree/master/0298-binary-tree-longest-consecutive-sequence) |
@@ -489,6 +492,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/ImJ9y/problem_solve/tree/master/0098-validate-binary-search-tree) |
+| [0100-same-tree](https://github.com/ImJ9y/problem_solve/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0226-invert-binary-tree) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/ImJ9y/problem_solve/tree/master/0298-binary-tree-longest-consecutive-sequence) |
