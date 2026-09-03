@@ -365,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0136-single-number](https://github.com/ImJ9y/problem_solve/tree/master/0136-single-number) |
+| [0190-reverse-bits](https://github.com/ImJ9y/problem_solve/tree/master/0190-reverse-bits) |
 | [0287-find-the-duplicate-number](https://github.com/ImJ9y/problem_solve/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/ImJ9y/problem_solve/tree/master/0338-counting-bits) |
 ## Queue
@@ -392,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ImJ9y/problem_solve/tree/master/0169-majority-element) |
+| [0190-reverse-bits](https://github.com/ImJ9y/problem_solve/tree/master/0190-reverse-bits) |
 ## Randomized
 |  |
 | ------- |
