@@ -5,29 +5,29 @@ class Solution:
 
         for i in range(len(nums)):
             if i > 0 and nums[i-1] == nums[i]:
-                continue
-            
-            LEFT = i + 1
-            RIGHT = len(nums)-1
+                continue      
+            L = i + 1
+            R = len(nums)-1
 
-            while LEFT < RIGHT:
-                cur = nums[i] + nums[LEFT] + nums[RIGHT]
+            while L < R:
+                three_sum = nums[i] + nums[L] + nums[R]
 
-                if cur < 0:
-                    LEFT += 1
-                elif cur > 0:
-                    RIGHT -= 1
+                if three_sum < 0:
+                    L += 1
+                elif three_sum > 0:
+                    R -= 1
                 else:
-                    res.append([nums[i], nums[LEFT], nums[RIGHT]])
+                    res.append([nums[i], nums[L], nums[R]])
 
-                    while LEFT < RIGHT and nums[LEFT] == nums[LEFT+1]:
-                        LEFT += 1
+                    while L < R and nums[L] == nums[L+1]:
+                        L += 1
+                        continue
                     
-                    while RIGHT > 0 and nums[RIGHT] == nums[RIGHT-1]:
-                        RIGHT -= 1
+                    while R > 0 and nums[R] == nums[R-1]:
+                        R -= 1
+                        continue
+
+                    L += 1
+                    R -= 1
                     
-                    LEFT += 1
-                    RIGHT -= 1
-            
         return res
-                    
