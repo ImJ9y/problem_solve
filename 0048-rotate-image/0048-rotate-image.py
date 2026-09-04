@@ -3,7 +3,7 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        LEFT, RIGHT = 0, len(matrix[0])-1
+        LEFT, RIGHT = 0, len(matrix)-1
 
         while LEFT < RIGHT:
             TOP, BOTTOM = LEFT, RIGHT
@@ -13,7 +13,7 @@ class Solution:
                 matrix[TOP][LEFT+i] = matrix[BOTTOM-i][LEFT]
 
                 matrix[BOTTOM-i][LEFT] = matrix[BOTTOM][RIGHT-i]
-                
+
                 matrix[BOTTOM][RIGHT-i] = matrix[TOP+i][RIGHT]
 
                 matrix[TOP+i][RIGHT] = TOPLEFT
@@ -21,6 +21,6 @@ class Solution:
             LEFT += 1
             RIGHT -= 1
 
-                
 
-                
+
+
