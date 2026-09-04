@@ -25,6 +25,7 @@ class Solution:
             prev = second
             second = temp
         
+
         first = head
         second = prev
 
@@ -33,7 +34,6 @@ class Solution:
             first.next = second
             second.next = tmp1
 
-            first = tmp1
-            second = tmp2
-        
+            first, second = tmp1, tmp2
+
         
