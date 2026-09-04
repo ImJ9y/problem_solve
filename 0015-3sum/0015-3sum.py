@@ -21,11 +21,9 @@ class Solution:
 
                     while L < R and nums[L] == nums[L+1]:
                         L += 1
-                        continue
                     
                     while R > 0 and nums[R] == nums[R-1]:
                         R -= 1
-                        continue
 
                     L += 1
                     R -= 1
