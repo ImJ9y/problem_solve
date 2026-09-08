@@ -5,12 +5,10 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        
+    def isValidBST(self, root: Optional[TreeNode]) -> bool: 
         def valid(root, left, right):
             if not root:
                 return True
-            
             if not(left < root.val and root.val < right):
                 return False
 
