@@ -405,6 +405,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ImJ9y/problem_solve/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0572-subtree-of-another-tree](https://github.com/ImJ9y/problem_solve/tree/master/0572-subtree-of-another-tree) |
 ## Sliding Window
 |  |
 | ------- |
@@ -446,6 +447,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0226-invert-binary-tree) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/ImJ9y/problem_solve/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/ImJ9y/problem_solve/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0572-subtree-of-another-tree](https://github.com/ImJ9y/problem_solve/tree/master/0572-subtree-of-another-tree) |
 | [0721-accounts-merge](https://github.com/ImJ9y/problem_solve/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/ImJ9y/problem_solve/tree/master/0744-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/ImJ9y/problem_solve/tree/master/0778-swim-in-rising-water) |
@@ -497,6 +499,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0226-invert-binary-tree) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/ImJ9y/problem_solve/tree/master/0298-binary-tree-longest-consecutive-sequence) |
+| [0572-subtree-of-another-tree](https://github.com/ImJ9y/problem_solve/tree/master/0572-subtree-of-another-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -505,6 +508,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0226-invert-binary-tree) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/ImJ9y/problem_solve/tree/master/0298-binary-tree-longest-consecutive-sequence) |
+| [0572-subtree-of-another-tree](https://github.com/ImJ9y/problem_solve/tree/master/0572-subtree-of-another-tree) |
 ## Longest Increasing Subsequence
 |  |
 | ------- |
@@ -565,4 +569,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0079-word-search](https://github.com/ImJ9y/problem_solve/tree/master/0079-word-search) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/ImJ9y/problem_solve/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
