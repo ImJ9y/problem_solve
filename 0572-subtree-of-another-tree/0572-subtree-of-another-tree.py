@@ -13,10 +13,10 @@ class Solution:
             if not p and not q:
                 return True
             
-            if not p or not q or p.val != q.val:
+            if p and q and p.val == q.val:
+                return (valid(p.left, q.left) and valid(p.right, q.right))
+            else: 
                 return False
-            
-            return (valid(p.left, q.left) and valid(p.right, q.right))
         
         if valid(root, subRoot):
             return True
