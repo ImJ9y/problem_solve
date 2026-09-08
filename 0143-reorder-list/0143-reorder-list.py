@@ -11,13 +11,12 @@ class Solution:
         slow = head
         fast = head.next
 
-        while fast and fast.next:
+        while fast and fast.next: #floyd's cycle
             slow = slow.next
             fast = fast.next.next
-        
+
         second = slow.next
-        slow.next = None
-        prev = None
+        prev = slow.next = None
 
         while second:
             temp = second.next
@@ -25,15 +24,15 @@ class Solution:
             prev = second
             second = temp
         
-
         first = head
         second = prev
 
         while second:
             tmp1, tmp2 = first.next, second.next
+
             first.next = second
             second.next = tmp1
 
-            first, second = tmp1, tmp2
+            first = tmp1
+            second = tmp2
 
-        
