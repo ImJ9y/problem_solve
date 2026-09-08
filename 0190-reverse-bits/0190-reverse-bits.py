@@ -1,17 +1,11 @@
 class Solution:
     def reverseBits(self, n: int) -> int:
-        bit = n
-        res = ""
-        while bit:
-            res += str(bit%2)
-            bit = bit//2
+        reversed_bit = 0
 
-        extra_zero = 32 - len(res)
-        res += '0' * extra_zero
+        for _ in range(32):
+            reversed_bit = reversed_bit << 1
+            bit = n & 1
+            reversed_bit = reversed_bit | bit
+            n = n >> 1
         
-        ans = 0
-        res_list = list(res)
-        for i in range(len(res_list)-1,-1,-1):
-            ans += int(res_list[i]) * (2 ** (31 - i))
-
-        return ans
+        return reversed_bit
