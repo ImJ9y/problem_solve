@@ -8,15 +8,17 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
+        
         slow = head
         fast = head.next
 
-        while fast and fast.next: #floyd's cycle
+        while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
-
+        
         second = slow.next
-        prev = slow.next = None
+        prev = None
+        slow.next = None
 
         while second:
             temp = second.next
@@ -29,10 +31,9 @@ class Solution:
 
         while second:
             tmp1, tmp2 = first.next, second.next
-
             first.next = second
             second.next = tmp1
 
             first = tmp1
             second = tmp2
-
+        
