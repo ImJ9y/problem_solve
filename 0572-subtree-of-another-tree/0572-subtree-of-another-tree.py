@@ -18,6 +18,7 @@ class Solution:
             
             return (valid(p.left, q.left) and valid(p.right, q.right))
         
-        return (valid(root, subRoot) or
-        valid(root.left, subRoot) or
-        valid(root.right, subRoot))
+        if valid(root, subRoot):
+            return True
+
+        return (valid(root.left, subRoot) or valid(root.right, subRoot))
