@@ -14,16 +14,16 @@ class Solution:
                         matrix[r][0] = 0
                     else:
                         rowZero = True
-        
+
         for r in range(1, ROWS):
             for c in range(1, COLS):
                 if matrix[r][0] == 0 or matrix[0][c] == 0:
                     matrix[r][c] = 0
-            
+        
         if matrix[0][0] == 0:
-            for r in range(ROWS):
-                matrix[r][0] = 0
+            for R in range(ROWS):
+                matrix[R][0] = 0
         
         if rowZero:
             for c in range(COLS):
-                matrix[0][c] = 0
+                matrix[0][c] = 0 
