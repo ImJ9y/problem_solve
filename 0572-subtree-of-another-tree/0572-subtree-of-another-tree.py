@@ -21,4 +21,4 @@ class Solution:
         if valid(root, subRoot):
             return True
 
-        return (valid(root.left, subRoot) or valid(root.right, subRoot))
+        return (self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot))
