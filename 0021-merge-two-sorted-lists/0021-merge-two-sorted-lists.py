@@ -29,3 +29,4 @@ class Solution:
             tail = tail.next
         
         return dummy.next
+        
