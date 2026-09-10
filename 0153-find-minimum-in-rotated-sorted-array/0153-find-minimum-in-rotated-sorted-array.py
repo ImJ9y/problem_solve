@@ -4,14 +4,14 @@ class Solution:
         res = float('inf')
 
         while L <= R:
-            if nums[L] <= nums[R]:
+            if nums[L] < nums[R]:
                 res = min(res, nums[L])
                 return res
             
             M = (L+R)//2
-            res = min(res, nums[M])
+            res = min(nums[M], res)
 
-            if nums[R] > nums[M]:
+            if nums[M] < nums[R]:
                 R = M - 1
             else:
                 L = M + 1
