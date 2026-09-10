@@ -11,13 +11,13 @@ class Solution:
         if not subRoot:
             return True
         
-        def same(s,t):
-            if not s and not t:
+        def same(p,q):
+            if not p and not q:
                 return True
         
-            if s and t and s.val == t.val:
-                return (same(s.left, t.left) and same(s.right, t.right))
-            else: 
+            if p and q and p.val == q.val:
+                return (same(p.left, q.left) and same(p.right, q.right))
+            else:
                 return False
         
         if same(root, subRoot):
