@@ -1,9 +1,9 @@
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        count = {}
         max_freq = 0
-        res = 0
+        count = {}
         L = 0
+        res = float('-inf')
 
         for R in range(len(s)):
             count[s[R]] = 1 + count.get(s[R], 0)
@@ -15,5 +15,5 @@ class Solution:
                 L += 1
             
             res = max(res, R - L + 1)
-    
+        
         return res
