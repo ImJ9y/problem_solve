@@ -14,6 +14,7 @@ class Solution:
         def same(p,q):
             if not p and not q:
                 return True
+        
             if p and q and p.val == q.val:
                 return same(p.left, q.left) and same(p.right, q.right)
             else:
@@ -22,4 +23,4 @@ class Solution:
         if same(root, subRoot):
             return True
         
-        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.left, subRoot)
+        return (self.isSubtree(root.left, subRoot) or self.isSubtree(root.left, subRoot))
