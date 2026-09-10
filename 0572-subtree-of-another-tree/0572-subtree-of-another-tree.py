@@ -14,10 +14,10 @@ class Solution:
         def same(p,q):
             if not p and not q:
                 return True
-            if not p or not q or p.val != q.val:
-                return False
-            else:
+            if p and q and p.val == q.val:
                 return same(p.left, q.left) and same(p.right, q.right)
+            else:
+                return False
         
         if same(root, subRoot):
             return True
