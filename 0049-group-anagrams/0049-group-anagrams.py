@@ -9,5 +9,5 @@ class Solution:
                 count[ord(c) - ord('a')] += 1
             
             res[tuple(count)].append(word)
-    
+        
         return list(res.values())
