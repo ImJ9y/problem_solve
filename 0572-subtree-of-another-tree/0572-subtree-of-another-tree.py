@@ -11,17 +11,15 @@ class Solution:
         if not subRoot:
             return True
         
-        def valid(p, q):
+        def same(p,q):
             if not p and not q:
                 return True
-            
-            if (not p or not q or p.val != q.val):
+            if not p or not q or p.val != q.val:
                 return False
             else:
-                return (valid(p.left, q.left) and valid(p.right,q.right))
+                return same(p.left, q.left) and same(p.right, q.right)
         
-        if valid(root, subRoot):
+        if same(root, subRoot):
             return True
-
-        return (self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot))
         
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.left, subRoot)
