@@ -1,15 +1,17 @@
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
-        starts = sorted([meeting[0] for meeting in intervals])
-        ends = sorted([meeting[1] for meeting in intervals])
-        end_point = 0
-        rooms_need = 0
+        start_time = sorted(start for start, end in intervals)
+        end_time = sorted(end for start, end in intervals)
+        start_idx = len(end_time)-1
+        # 0 5 15
+        # 10 20 30
 
-        for start in starts:
-            if start < ends[end_point]:
-                rooms_need += 1
+        room = 0
+        for R in range(len(end_time)-1,-1,-1):
+            if end_time[R] > start_time[start_idx]:
+                room += 1
+                R -= 1
             else:
-                end_point += 1
-        
-        return rooms_need
-        
+                start_idx -= 1
+        return room
+            
