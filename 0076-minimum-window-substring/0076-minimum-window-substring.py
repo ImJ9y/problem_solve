@@ -23,7 +23,7 @@ class Solution:
                     
                     window[s[L]] -= 1
                     
-                    if s[L] in count_T and window[s[L]] < count_T[cur_c]:
+                    if s[L] in count_T and window[s[L]] < count_T[s[L]]:
                         have -= 1
                     
                     L += 1
