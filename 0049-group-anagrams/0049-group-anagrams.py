@@ -11,4 +11,3 @@ class Solution:
             res[tuple(count)].append(word)
         
         return list(res.values())
-        
