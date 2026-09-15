@@ -6,7 +6,7 @@ class Solution:
         for i in range(len(nums)):
             if i > 0 and nums[i] == nums[i-1]:
                 continue
-
+            
             L = i + 1
             R = len(nums)-1
 
