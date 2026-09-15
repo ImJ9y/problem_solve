@@ -17,7 +17,4 @@ class Solution:
             
             LEFT += 1
             RIGHT -= 1
-            
-
-                
-                
+        
