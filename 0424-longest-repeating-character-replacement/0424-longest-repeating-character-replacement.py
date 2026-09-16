@@ -1,8 +1,8 @@
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
+        res = 0
         max_freq = 0
         L = 0
-        res = 0
         count = {}
 
         for R in range(len(s)):
