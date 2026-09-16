@@ -1,6 +1,7 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
         res = 0
+
         for i in range(len(s)):
             L = R = i
 
@@ -17,3 +18,4 @@ class Solution:
                 R += 1
         
         return res
+            
