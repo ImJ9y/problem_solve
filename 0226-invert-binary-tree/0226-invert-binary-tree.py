@@ -15,5 +15,5 @@ class Solution:
         temp = root.left
         root.left = root.right
         root.right = temp
-
+    
         return root
