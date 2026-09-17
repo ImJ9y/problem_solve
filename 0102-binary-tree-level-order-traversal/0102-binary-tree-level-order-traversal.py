@@ -6,11 +6,10 @@
 #         self.right = right
 class Solution:
     def levelOrder(self, root: TreeNode | None) -> list[list[int]]:
-        if not root:
-            return []
-        
-        res = []
+        if not root: return []
+
         stack = [(root, 0)]
+        res = []
 
         while stack:
             node, depth = stack.pop()
@@ -22,6 +21,7 @@ class Solution:
 
             if node.right:
                 stack.append((node.right, depth+1))
+            
             if node.left:
                 stack.append((node.left, depth+1))
         
