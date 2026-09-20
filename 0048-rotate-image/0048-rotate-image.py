@@ -1,5 +1,5 @@
 class Solution:
-    def rotate(self, matrix: List[List[int]]) -> None:
+    def rotate(self, matrix: list[list[int]]) -> None:
         """
         Do not return anything, modify matrix in-place instead.
         """
@@ -14,6 +14,6 @@ class Solution:
                 matrix[BOTTOM-i][LEFT] = matrix[BOTTOM][RIGHT-i]
                 matrix[BOTTOM][RIGHT-i] = matrix[TOP+i][RIGHT]
                 matrix[TOP+i][RIGHT] = TOPLEFT
-
+            
             LEFT += 1
             RIGHT -= 1
