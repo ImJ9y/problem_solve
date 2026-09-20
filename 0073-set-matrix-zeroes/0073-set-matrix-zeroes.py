@@ -3,7 +3,7 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        rowZero = False
+        zeroRow = False
         ROWS, COLS = len(matrix), len(matrix[0])
 
         for r in range(ROWS):
@@ -14,7 +14,7 @@ class Solution:
                     if r > 0:
                         matrix[r][0] = 0
                     else:
-                        rowZero = True
+                        zeroRow = True
         
         for r in range(1, ROWS):
             for c in range(1, COLS):
@@ -25,6 +25,8 @@ class Solution:
             for r in range(ROWS):
                 matrix[r][0] = 0
         
-        if rowZero:
+        if zeroRow:
             for c in range(COLS):
                 matrix[0][c] = 0
+        
+        
