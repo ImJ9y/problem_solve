@@ -9,7 +9,7 @@ class Solution:
                     nums[i] = max(nums[i], nums[0])
                 else:
                     nums[i] = max(nums[i-2] + nums[i], nums[i-1])
-        
+            
             return nums[-1]
         
         return max(helper(nums[1:]), helper(nums[:-1]))
