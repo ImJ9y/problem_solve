@@ -5,7 +5,8 @@ class Solution:
 
         for coin in coins:
             for i in range(amount+1):
-                if i - coin >= 0:
-                    dp[i] = min(dp[i], 1 + dp[i - coin])
+                remainder = i - coin
+                if remainder >= 0:
+                    dp[i] = min(dp[i], 1 + dp[remainder])
         
         return dp[amount] if dp[amount] != amount+1 else -1
