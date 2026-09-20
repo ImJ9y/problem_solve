@@ -9,5 +9,5 @@ class Solution:
                 new_rows[i] = new_rows[i+1] + rows[i]
             
             rows = new_rows
-        
+
         return rows[0]
