@@ -5,10 +5,10 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
+    def isSubtree(self, root: TreeNode | None, subRoot: TreeNode | None) -> bool:
         if not root: return False
         if not subRoot: return True
-    
+
         def same(p, q):
             if not p and not q:
                 return True
@@ -21,4 +21,4 @@ class Solution:
         if same(root, subRoot):
             return True
         
-        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
+        return (self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot))
