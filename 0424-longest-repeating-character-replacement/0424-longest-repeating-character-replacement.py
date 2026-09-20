@@ -5,6 +5,7 @@ class Solution:
         L = 0
         count = {}
 
+
         for R in range(len(s)):
             count[s[R]] = 1 + count.get(s[R], 0)
 
