@@ -1,34 +1,30 @@
 class Solution:
     def countComponents(self, n: int, edges: List[List[int]]) -> int:
-        par = [i for i in range(n)]
+        parent = [i for i in range(n)]
         rank = [1] * n
-        
+
         def find(n1):
             res = n1
-
-            while res != par[res]:
-                par[res] = par[par[res]]
-                res = par[res]
-            
+            while res != parent[res]:
+                parent[res] = parent[parent[res]]
+                res = parent[res]
             return res
+        
+        def union(u1, u2):
+            n1, n2 = find(u1), find(u2)
 
-
-        def union(n1, n2):
-            p1, p2 = find(n1), find(n2)
-
-            if p1 == p2:
+            if n1 == n2:
                 return 0
             
-            if rank[p2] > rank[p1]:
-                par[p1] = p2
-                rank[p2] += rank[p1]
+            if n1 < n2:
+                parent[n1] = n2
+                rank[n2] += rank[n1]
             else:
-                par[p2] = p1
-                rank[p1] += rank[p2]
-            
+                parent[n2] = n1
+                rank[n1] += rank[n2]
+        
             return 1
         
-
         res = n
         for n1, n2 in edges:
             res -= union(n1, n2)
