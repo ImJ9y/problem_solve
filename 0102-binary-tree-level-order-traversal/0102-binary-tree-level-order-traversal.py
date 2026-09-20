@@ -8,24 +8,42 @@ class Solution:
     def levelOrder(self, root: TreeNode | None) -> list[list[int]]:
         if not root:
             return []
-        
+
+        queue = collections.deque([root])
         res = []
-        stack = [(root, 0)]
 
-        while stack:
-            node, depth = stack.pop()
+        while queue:
+            level = []
+            for _ in range(len(queue)):
+                node = queue.popleft()
+                level.append(node.val)
 
-            if len(res) == depth:
-                res.append([])
-
-            res[depth].append(node.val)
-
-            depth += 1
-    
-            if node.right:
-                stack.append((node.right, depth))
-            if node.left:
-                stack.append((node.left, depth))
+                if node.left:
+                    queue.append(node.left)
             
+                if node.right:
+                    queue.append(node.right)
+            
+            res.append(level)
         
         return res
+        
+        # res = []
+        # stack = [(root, 0)]
+
+        # while stack:
+        #     node, depth = stack.pop()
+
+        #     if len(res) == depth:
+        #         res.append([])
+
+        #     res[depth].append(node.val)
+
+        #     depth += 1
+    
+        #     if node.right:
+        #         stack.append((node.right, depth))
+        #     if node.left:
+        #         stack.append((node.left, depth))
+            
+        # return res
