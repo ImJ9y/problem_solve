@@ -2,7 +2,7 @@ class Solution:
     def minMeetingRooms(self, intervals: list[list[int]]) -> int:
         start_time = sorted(start for start, end in intervals)
         end_time = sorted(end for start, end in intervals)
-
+        
         idx = 0
         room = 0
 
