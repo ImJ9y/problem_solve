@@ -6,6 +6,7 @@ class Solution:
         for coin in coins:
             for i in range(amount+1):
                 remainder = i - coin
+
                 if remainder >= 0:
                     dp[i] = min(dp[i], 1 + dp[remainder])
         
