@@ -7,8 +7,7 @@ class Solution:
 
         while LEFT < RIGHT:
             TOP, BOTTOM = LEFT, RIGHT
-
-            for i in range(RIGHT - LEFT):
+            for i in range(RIGHT-LEFT):
                 TOPLEFT = matrix[TOP][LEFT+i]
                 matrix[TOP][LEFT+i] = matrix[BOTTOM-i][LEFT]
                 matrix[BOTTOM-i][LEFT] = matrix[BOTTOM][RIGHT-i]
@@ -17,3 +16,4 @@ class Solution:
             
             LEFT += 1
             RIGHT -= 1
+        
