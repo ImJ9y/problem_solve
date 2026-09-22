@@ -31,3 +31,4 @@ class Solution:
             second.next = tmp1
 
             first, second = tmp1, tmp2
+        
