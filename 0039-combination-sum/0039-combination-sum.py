@@ -1,20 +1,20 @@
-class Solution(object):
-    def combinationSum(self, candidates, target):
-        """
-        :type candidates: List[int]
-        :type target: int
-        :rtype: List[List[int]]
-        """
-        dp = [[] for i in range(target+1)]
+class Solution:
+    def combinationSum(self, candidates: list[int], target: int) -> list[list[int]]:
+        res = []
+
+        def dfs(i, cur, total):
+            if total == target:
+                res.append(cur[:])
+                return
+            
+            if i >= len(candidates) or total > target:
+                return
+            
+            cur.append(candidates[i])
+            dfs(i, cur, total + candidates[i])
+            cur.pop()
+
+            dfs(i+1, cur, total)
         
-        for c in candidates:
-            for i in range(target + 1):
-                if i < c: continue
-                
-                if i == c:
-                    dp[i].append([c])
-                else:
-                    for secondList in dp[i-c]:
-                        dp[i].append(secondList + [c])
-        
-        return dp[target]
+        dfs(0, [], 0)
+        return res
