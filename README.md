@@ -453,6 +453,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/ImJ9y/problem_solve/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ImJ9y/problem_solve/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0226-invert-binary-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/ImJ9y/problem_solve/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/ImJ9y/problem_solve/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/ImJ9y/problem_solve/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0572-subtree-of-another-tree](https://github.com/ImJ9y/problem_solve/tree/master/0572-subtree-of-another-tree) |
@@ -507,6 +508,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0102-binary-tree-level-order-traversal](https://github.com/ImJ9y/problem_solve/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0226-invert-binary-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/ImJ9y/problem_solve/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/ImJ9y/problem_solve/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0572-subtree-of-another-tree](https://github.com/ImJ9y/problem_solve/tree/master/0572-subtree-of-another-tree) |
 ## Binary Tree
@@ -517,6 +519,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0102-binary-tree-level-order-traversal](https://github.com/ImJ9y/problem_solve/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/ImJ9y/problem_solve/tree/master/0226-invert-binary-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/ImJ9y/problem_solve/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/ImJ9y/problem_solve/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0572-subtree-of-another-tree](https://github.com/ImJ9y/problem_solve/tree/master/0572-subtree-of-another-tree) |
 ## Longest Increasing Subsequence
@@ -563,6 +566,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/ImJ9y/problem_solve/tree/master/0098-validate-binary-search-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/ImJ9y/problem_solve/tree/master/0230-kth-smallest-element-in-a-bst) |
 ## Manacher
 |  |
 | ------- |
