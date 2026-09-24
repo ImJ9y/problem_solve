@@ -9,7 +9,6 @@ class Solution:
                 return res
             
             M = (L+R)//2
-
             res = min(res, nums[M])
 
             if nums[M] < nums[R]:
